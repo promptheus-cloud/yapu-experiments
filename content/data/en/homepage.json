@@ -1,0 +1,87 @@
+{
+  "hero": {
+    "title": "YAPU facilitates resilience finance for the most vulnerable",
+    "subtitle": "YAPU Solutions provides innovative digital tools that enable financial institutions, investors and development organizations to achieve sustainable and inclusive growth.",
+    "ctaText": "try the APP now",
+    "ctaHref": "https://my.yapu.solutions"
+  },
+  "serviceModules": [
+    {
+      "id": "investor-services",
+      "title": "Investor Services",
+      "bullets": ["Path to resilience", "Measure your impact", "Monitor your portfolio in real time"],
+      "readMoreText": "read more",
+      "href": "/en/investor-services",
+      "image": "/images/laptop-investor-services.png",
+      "imageAlt": "Laptop showing YAPU investor dashboard",
+      "badge": "/images/p2r-badge-en.svg",
+      "badgeAlt": "Path to Resilience"
+    },
+    {
+      "id": "data-insights",
+      "title": "Data Insights",
+      "bullets": ["Loan decision support", "Climate, environmental and social risks", "Biodiversity risk", "Staff performance"],
+      "readMoreText": "read more",
+      "href": "/en/data-insights",
+      "image": "/images/laptop-data-insights.png",
+      "imageAlt": "Laptop showing YAPU data insights dashboard"
+    },
+    {
+      "id": "digital-tools",
+      "title": "Digital Tools",
+      "bullets": ["Easy digital transformation", "Improved risk management", "Data insights"],
+      "readMoreText": "read more",
+      "href": "/en/digital-tools",
+      "image": "/images/phone-digital-tools.png",
+      "imageAlt": "Smartphone showing YAPU mobile app"
+    },
+    {
+      "id": "impact",
+      "title": "Impact",
+      "bullets": ["Putting financial inclusion first", "Promoting green finance", "Fostering climate resilience for the most vulnerable"],
+      "readMoreText": "read more",
+      "href": "/en/impact",
+      "image": "/images/impact-header.jpg",
+      "imageAlt": "Scale for Resilience initiative",
+      "badge": "/images/logo-s4r.png",
+      "badgeAlt": "Scale for Resilience"
+    }
+  ],
+  "testimonial": {
+    "quote": "YAPU's digital tools have transformed how we assess and monitor our lending portfolio, giving us real-time insights into both financial performance and social impact.",
+    "author": "Tina Livingston",
+    "role": "Chief Operations Officer",
+    "organization": "COK Sodality Cooperative Credit Union Ltd., Jamaica"
+  },
+  "partnerLogos": [
+    {"alt": "United Nations", "src": "/logos/partners/un.png"},
+    {"alt": "IDB Invest", "src": "/logos/partners/idb-invest.png"},
+    {"alt": "IDB Lab", "src": "/logos/partners/idb-lab.png"},
+    {"alt": "BNP Paribas", "src": "/logos/partners/bnp-paribas.png"},
+    {"alt": "FMO", "src": "/logos/partners/fmo.png"},
+    {"alt": "Fondation Grameen", "src": "/logos/partners/fondation-grameen.png"},
+    {"alt": "SIDI", "src": "/logos/partners/sidi.png"},
+    {"alt": "CAF", "src": "/logos/partners/caf.png"},
+    {"alt": "Enclude", "src": "/logos/partners/enclude.png"},
+    {"alt": "European Microfinance Platform", "src": "/logos/partners/european-microfinance.png"},
+    {"alt": "Rice Exchange", "src": "/logos/partners/rice-exchange.png"},
+    {"alt": "IFAD", "src": "/logos/partners/ifad.png"}
+  ],
+  "clientLogos": [
+    {"alt": "Genesis", "src": "/logos/clients/genesis.png"},
+    {"alt": "Banco de Loja", "src": "/logos/clients/banco-de-loja.png"},
+    {"alt": "RFD", "src": "/logos/clients/rfd.png"},
+    {"alt": "Codesarrollo", "src": "/logos/clients/codesarrollo.png"},
+    {"alt": "Fundecooperacion", "src": "/logos/clients/fundecooperacion.png"},
+    {"alt": "BFA", "src": "/logos/clients/bfa.png"},
+    {"alt": "Banco ADOPEM", "src": "/logos/clients/banco-adopem.png"},
+    {"alt": "De La Mujer", "src": "/logos/clients/delamujer.png"},
+    {"alt": "Banque Agricole", "src": "/logos/clients/banque-agricole.png"},
+    {"alt": "Coomultagro", "src": "/logos/clients/coomultagro.png"},
+    {"alt": "Tulcan", "src": "/logos/clients/tulcan.png"},
+    {"alt": "Guaranda", "src": "/logos/clients/guaranda.png"},
+    {"alt": "Caurie", "src": "/logos/clients/caurie.png"},
+    {"alt": "Comuba", "src": "/logos/clients/comuba.png"},
+    {"alt": "Nitlapan", "src": "/logos/clients/nitlapan.png"}
+  ]
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "investor-services",
+    "labelKey": "investorServices",
+    "href": "/investor-services",
+    "subItems": [
+      {"labelKey": "investorServices_pathToResilience", "href": "/investor-services#path-to-resilience"},
+      {"labelKey": "investorServices_impactMeasurement", "href": "/investor-services#impact-measurement"},
+      {"labelKey": "investorServices_sdgs", "href": "/investor-services#sdgs"},
+      {"labelKey": "investorServices_useCases", "href": "/investor-services#use-cases"}
+    ]
+  },
+  {
+    "id": "data-insights",
+    "labelKey": "dataInsights",
+    "href": "/data-insights",
+    "subItems": [
+      {"labelKey": "dataInsights_creditRisk", "href": "/data-insights#credit-risk"},
+      {"labelKey": "dataInsights_financialRisks", "href": "/data-insights#financial-risks"},
+      {"labelKey": "dataInsights_resilienceFinance", "href": "/data-insights#resilience-finance"},
+      {"labelKey": "dataInsights_performanceMonitoring", "href": "/data-insights#performance-monitoring"},
+      {"labelKey": "dataInsights_capacityBuilding", "href": "/data-insights#capacity-building"}
+    ]
+  },
+  {
+    "id": "digital-tools",
+    "labelKey": "digitalTools",
+    "href": "/digital-tools",
+    "subItems": [
+      {"labelKey": "digitalTools_frontOffice", "href": "/digital-tools#front-office"},
+      {"labelKey": "digitalTools_teamManagement", "href": "/digital-tools#team-management"},
+      {"labelKey": "digitalTools_loanDecision", "href": "/digital-tools#loan-decision"},
+      {"labelKey": "digitalTools_systemIntegration", "href": "/digital-tools#system-integration"},
+      {"labelKey": "digitalTools_learningOrganization", "href": "/digital-tools#learning-organization"},
+      {"labelKey": "digitalTools_features", "href": "/digital-tools#features"}
+    ]
+  },
+  {
+    "id": "impact",
+    "labelKey": "impact",
+    "href": "/impact",
+    "subItems": [
+      {"labelKey": "impact_digitalResilienceFinance", "href": "/impact#digital-resilience-finance"},
+      {"labelKey": "impact_scaleForResilience", "href": "/impact#scale-for-resilience"},
+      {"labelKey": "impact_impactReferences", "href": "/impact#impact-references"}
+    ]
+  },
+  {
+    "id": "news",
+    "labelKey": "news",
+    "href": "/news"
+  },
+  {
+    "id": "about",
+    "labelKey": "about",
+    "href": "/about"
+  }
+]

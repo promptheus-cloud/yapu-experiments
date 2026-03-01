@@ -1,0 +1,154 @@
+{
+  "hero": {
+    "title": "Actualites",
+    "subtitle": "Dernieres actualites de YAPU Solutions",
+    "ctaText": "Lire la Suite",
+    "ctaHref": "/fr/news"
+  },
+  "articles": [
+    {
+      "title": "YAPU Solutions Launches MEbA Biodiversity Platform",
+      "date": "2024-11-15",
+      "categories": ["Knowledge", "Software"],
+      "excerpt": "YAPU Solutions has launched a new digital platform to help microfinance institutions measure and report on biodiversity-related risks and opportunities in their loan portfolios, in alignment with the Taskforce on Nature-related Financial Disclosures (TNFD) framework.",
+      "slug": "yapu-launches-meba-biodiversity-platform",
+      "externalUrl": "https://yapu.solutions/news"
+    },
+    {
+      "title": "New Partnership with Alliance for Financial Inclusion to Scale Green Microfinance",
+      "date": "2024-09-20",
+      "categories": ["General", "Knowledge"],
+      "excerpt": "YAPU Solutions and the Alliance for Financial Inclusion (AFI) have announced a new collaboration to expand the reach of the MEbA framework, supporting microfinance institutions in integrating climate adaptation into their lending products across Africa, Asia, and Latin America.",
+      "slug": "partnership-afi-green-microfinance",
+      "externalUrl": "https://yapu.solutions/news"
+    },
+    {
+      "title": "YAPU App Version 3.0: Offline-First Data Collection for Field Officers",
+      "date": "2024-08-05",
+      "categories": ["Software"],
+      "excerpt": "We are proud to announce the release of YAPU App 3.0, featuring a fully offline-first architecture that allows field officers to collect client data, conduct risk assessments, and submit loan applications in areas without internet connectivity. Data syncs automatically once a connection is available.",
+      "slug": "yapu-app-version-3-release",
+      "externalUrl": "https://yapu.solutions/news"
+    },
+    {
+      "title": "ECOMICRO Program Reaches 25 Microfinance Institutions Across Latin America",
+      "date": "2024-06-12",
+      "categories": ["General", "Knowledge"],
+      "excerpt": "The ECOMICRO program, supported by IDB Lab, has now reached 25 participating microfinance institutions across 10 Latin American and Caribbean countries. YAPU Solutions serves as the technology partner, providing data collection and impact measurement tools for the program.",
+      "slug": "ecomicro-reaches-25-mfis",
+      "externalUrl": "https://yapu.solutions/news"
+    },
+    {
+      "title": "Webinar: Climate Risk Assessment in Microfinance Portfolios",
+      "date": "2024-04-18",
+      "categories": ["Knowledge", "General"],
+      "excerpt": "YAPU Solutions hosted a webinar on integrating climate risk assessment into microfinance portfolio management. Over 200 participants from financial institutions, regulators, and development organizations across 35 countries joined to discuss methodologies, tools, and case studies.",
+      "slug": "webinar-climate-risk-microfinance",
+      "externalUrl": "https://yapu.solutions/news"
+    },
+    {
+      "title": "YAPU Solutions Wins FinTech Innovation Award at Impact Finance Berlin",
+      "date": "2024-03-07",
+      "categories": ["General"],
+      "excerpt": "YAPU Solutions was recognized with the FinTech Innovation Award at the Impact Finance Berlin conference, celebrating outstanding contributions to sustainable finance technology.",
+      "slug": "fintechaward-impact-finance-berlin",
+      "externalUrl": "https://yapu.solutions/news"
+    },
+    {
+      "title": "New Research: Digital Tools for Resilience Finance — A Practitioner Guide",
+      "date": "2024-01-25",
+      "categories": ["Knowledge"],
+      "excerpt": "YAPU Solutions has published a comprehensive practitioner guide on using digital tools for resilience finance covering data collection methodologies, climate vulnerability scoring, and social performance indicators.",
+      "slug": "practitioner-guide-resilience-finance",
+      "externalUrl": "https://yapu.solutions/news"
+    },
+    {
+      "title": "YAPU Solutions Expands Operations to Sub-Saharan Africa",
+      "date": "2023-11-10",
+      "categories": ["General"],
+      "excerpt": "Following the success of our programs in Latin America and Asia, YAPU Solutions is expanding its operations to Sub-Saharan Africa, partnering with leading microfinance networks and development finance institutions.",
+      "slug": "expansion-sub-saharan-africa",
+      "externalUrl": "https://yapu.solutions/news"
+    },
+    {
+      "title": "How YAPU's Social Performance Module Helps MFIs Measure Client Outcomes",
+      "date": "2023-09-28",
+      "categories": ["Knowledge", "Software"],
+      "excerpt": "YAPU's Social Performance Module enables microfinance institutions to systematically track client outcomes beyond repayment rates, measuring household income changes, food security, school enrollment, and other key indicators.",
+      "slug": "social-performance-module-client-outcomes",
+      "externalUrl": "https://yapu.solutions/news"
+    },
+    {
+      "title": "Consulting Services: Supporting MFIs in CERISE+SPTF Social Audit Preparation",
+      "date": "2023-07-14",
+      "categories": ["Consulting"],
+      "excerpt": "YAPU Solutions' consulting team has helped over 15 microfinance institutions prepare for CERISE+SPTF SPI4 social audits, reducing preparation time by up to 40% while improving data quality and audit outcomes.",
+      "slug": "consulting-cerise-sptf-social-audit",
+      "externalUrl": "https://yapu.solutions/news"
+    },
+    {
+      "title": "YAPU Solutions at the European Microfinance Week 2023",
+      "date": "2023-06-01",
+      "categories": ["General"],
+      "excerpt": "YAPU Solutions participated in the European Microfinance Week 2023 in Luxembourg, presenting our latest research on digital resilience finance and leading a workshop on climate risk integration.",
+      "slug": "european-microfinance-week-2023",
+      "externalUrl": "https://yapu.solutions/news"
+    },
+    {
+      "title": "Case Study: Finrural Bolivia Uses YAPU Tools for Green Portfolio Management",
+      "date": "2023-04-20",
+      "categories": ["Knowledge", "Consulting"],
+      "excerpt": "Finrural Bolivia has successfully integrated YAPU's green finance tools into portfolio monitoring for its member institutions. This case study explores the implementation process, key outcomes, and lessons learned.",
+      "slug": "case-study-finrural-bolivia",
+      "externalUrl": "https://yapu.solutions/news"
+    },
+    {
+      "title": "New Feature: AI-Powered Credit Scoring for Agricultural Lending",
+      "date": "2023-02-16",
+      "categories": ["Software"],
+      "excerpt": "YAPU Solutions has launched a new AI-powered credit scoring module specifically designed for agricultural lending in emerging markets, incorporating satellite data, weather patterns, and behavioral data.",
+      "slug": "ai-credit-scoring-agricultural",
+      "externalUrl": "https://yapu.solutions/news"
+    },
+    {
+      "title": "YAPU Solutions and CGIAR Publish Joint Report on Climate-Smart Microfinance",
+      "date": "2022-12-05",
+      "categories": ["Knowledge"],
+      "excerpt": "YAPU Solutions and the CGIAR Research Program on Climate Change, Agriculture and Food Security (CCAFS) have jointly published a report synthesizing learnings from five years of field work with MFIs across 12 countries.",
+      "slug": "joint-report-climate-smart-microfinance",
+      "externalUrl": "https://yapu.solutions/news"
+    },
+    {
+      "title": "Training Program: Data-Driven Impact Measurement for MFI Staff",
+      "date": "2022-10-11",
+      "categories": ["Consulting", "Knowledge"],
+      "excerpt": "YAPU Solutions has launched an 8-module online training program for microfinance institution staff on data-driven impact measurement, available in English, Spanish, and French.",
+      "slug": "training-data-driven-impact-measurement",
+      "externalUrl": "https://yapu.solutions/news"
+    },
+    {
+      "title": "YAPU App Now Available on iOS and Android",
+      "date": "2022-08-22",
+      "categories": ["Software"],
+      "excerpt": "YAPU Solutions is pleased to announce that the YAPU App is now available on both iOS and Android platforms with full offline functionality for remote areas.",
+      "slug": "yapu-app-ios-android",
+      "externalUrl": "https://yapu.solutions/news"
+    },
+    {
+      "title": "Investor Services: New SDG Mapping Tool for Impact Investors",
+      "date": "2022-06-09",
+      "categories": ["Consulting", "Software"],
+      "excerpt": "YAPU Solutions has released an SDG mapping tool that enables impact investors to align their portfolio companies' activities with the UN Sustainable Development Goals, with automated tagging and investor-ready reporting.",
+      "slug": "sdg-mapping-tool-impact-investors",
+      "externalUrl": "https://yapu.solutions/news"
+    },
+    {
+      "title": "YAPU Solutions Celebrates 10 Years of Digital Impact in Emerging Markets",
+      "date": "2022-03-14",
+      "categories": ["General"],
+      "excerpt": "YAPU Solutions marks its 10th anniversary with a decade of developing digital tools for sustainable finance in emerging markets, now serving over 80 financial institutions across 30 countries.",
+      "slug": "10-years-digital-impact",
+      "externalUrl": "https://yapu.solutions/news"
+    }
+  ]
+}

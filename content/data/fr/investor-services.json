@@ -1,0 +1,105 @@
+{
+  "hero": {
+    "title": "Services aux Investisseurs",
+    "subtitle": "Mesurez les vulnerabilites climatiques et identifiez les opportunites de finance verte dans votre portefeuille.",
+    "ctaText": "En Savoir Plus",
+    "ctaHref": "/fr/investor-services"
+  },
+  "approach": {
+    "title": "Notre Approche",
+    "text": "Nous croyons en un marche de la finance de resilience florissant ou les portefeuilles durables generent a la fois de l'impact et des rendements. Notre approche integre le risque climatique, l'impact social et la verification de la taxonomie de la finance verte pour aider les investisseurs a constituer des portefeuilles resilients au changement climatique et alignes sur les normes internationales de durabilite."
+  },
+  "services": [
+    {
+      "title": "Developpement de Strategie",
+      "description": "Nous aidons les investisseurs a definir leur strategie de finance de resilience, en fixant des objectifs et des indicateurs alignes sur les normes internationales et les mandats des investisseurs.",
+      "icon": "Compass"
+    },
+    {
+      "title": "Conseil Operationnel",
+      "description": "Nous accompagnons la mise en oeuvre operationnelle des strategies de durabilite, en formant les equipes et en etablissant des processus de gestion des risques climatiques et de l'impact.",
+      "icon": "Users"
+    },
+    {
+      "title": "Certification de Portefeuille",
+      "description": "Nous verifions l'alignement du portefeuille avec les taxonomies de finance verte et les cadres de resilience climatique, en fournissant une certification tierce pour le reporting investisseur.",
+      "icon": "Award"
+    },
+    {
+      "title": "Generation de Portefeuille",
+      "description": "Nous identifions et generons des portefeuilles de prets resilients en appliquant des filtres de risque climatique et un scoring d'impact aux deals en pipeline et aux portefeuilles existants.",
+      "icon": "Briefcase"
+    },
+    {
+      "title": "Mesure de l'Impact",
+      "description": "Nous concevons et mettons en oeuvre des cadres de mesure de l'impact couvrant les dimensions environnementales et sociales, produisant des rapports d'impact de qualite investisseur.",
+      "icon": "Target"
+    },
+    {
+      "title": "Proposition de Valeur pour l'Investisseur",
+      "description": "Nous developpons des propositions de valeur convaincantes pour les investisseurs en traduisant des donnees de resilience complexes en narratives claires pour la levee de fonds et la communication avec les parties prenantes.",
+      "icon": "TrendingUp"
+    }
+  ],
+  "pathToResilience": {
+    "title": "Chemin vers la Resilience",
+    "stages": [
+      {
+        "title": "Reaction",
+        "description": "Identifier et comprendre les vulnerabilites climatiques et sociales dans le portefeuille existant. Evaluer l'exposition aux risques physiques et de transition et etablir une reference."
+      },
+      {
+        "title": "Divulgation",
+        "description": "Rendre compte des risques et opportunites climatiques et sociaux conformement aux cadres internationaux (TCFD, GRI, ODD). Construire la transparence pour les investisseurs et les regulateurs."
+      },
+      {
+        "title": "Promotion",
+        "description": "Promouvoir activement les produits de finance de resilience aupres des investisseurs a impact. Demontrer des references vertes verifiees et un impact mesurable pour attirer des capitaux alignes."
+      }
+    ]
+  },
+  "impactMeasurement": {
+    "title": "Mesure de l'Impact",
+    "environmental": {
+      "percentage": "0%",
+      "description": "du portefeuille examine sous l'angle climatique pour les vulnerabilites environnementales et l'eligibilite a la finance verte"
+    },
+    "social": {
+      "percentage": "0%",
+      "description": "du portefeuille evalue pour les indicateurs d'impact social couvrant le genre, les revenus et la resilience communautaire"
+    }
+  },
+  "sdgs": [1, 2, 5, 7, 8, 10, 12, 13, 15],
+  "useCases": [
+    {
+      "title": "Portefeuille IMF Agricole",
+      "social": 87,
+      "environmental": 62,
+      "sdgs": [1, 2, 13, 15]
+    },
+    {
+      "title": "Credit Vert aux PME",
+      "social": 74,
+      "environmental": 89,
+      "sdgs": [7, 8, 12, 13]
+    },
+    {
+      "title": "Inclusion Financiere des Femmes",
+      "social": 95,
+      "environmental": 45,
+      "sdgs": [1, 5, 8, 10]
+    },
+    {
+      "title": "Agriculture Intelligente face au Climat",
+      "social": 81,
+      "environmental": 93,
+      "sdgs": [2, 12, 13, 15]
+    }
+  ],
+  "greenFinanceRadar": {
+    "title": "Radar de Finance Verte",
+    "text": "Le Radar de Finance Verte est l'outil proprietaire de YAPU pour identifier, verifier et rendre compte des activites de finance verte dans les portefeuilles de microfinance et d'investissement a impact. Il combine l'alignement taxonomique, le scoring du risque climatique et la cartographie des ODD dans un tableau de bord unique pret pour les investisseurs.",
+    "ctaText": "Explorer le Radar",
+    "ctaHref": "/fr/investor-services"
+  }
+}

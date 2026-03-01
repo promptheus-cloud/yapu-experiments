@@ -1,0 +1,104 @@
+{
+  "hero": {
+    "title": "Analisis de Datos",
+    "subtitle": "Ofrecemos analisis de datos basados en las mejores practicas internacionales para las finanzas sostenibles y el riesgo climatico.",
+    "ctaText": "Saber Mas",
+    "ctaHref": "/es/data-insights"
+  },
+  "categories": [
+    {
+      "title": "Proyecciones Financieras",
+      "description": "Proyecciones financieras impulsadas por algoritmos que incorporan variables de riesgo climatico y social en las proyecciones de carteras de prestamos.",
+      "icon": "Calculator"
+    },
+    {
+      "title": "Decisiones Basadas en Algoritmos",
+      "description": "Modelos de aprendizaje automatico que automatizan la puntuacion crediticia, la clasificacion de riesgos y la segmentacion de carteras a escala.",
+      "icon": "Brain"
+    },
+    {
+      "title": "Riesgos Climaticos",
+      "description": "Evaluaciones de riesgo climatico fisico y de transicion mapeadas a la exposicion geografica de carteras de prestamos y prestatarios agricolas.",
+      "icon": "CloudRain"
+    },
+    {
+      "title": "Impacto Social",
+      "description": "Medicion de resultados sociales que incluyen inclusion financiera, equidad de genero, mejora de ingresos y resiliencia comunitaria.",
+      "icon": "Heart"
+    },
+    {
+      "title": "Taxonomias",
+      "description": "Verificacion de la alineacion de la cartera con la Taxonomia de la UE, el Climate Bonds Standard y las taxonomias nacionales de finanzas verdes.",
+      "icon": "BookOpen"
+    },
+    {
+      "title": "Desempeno del Personal",
+      "description": "Analitica de la productividad de los oficiales de prestamo, los factores de calidad de la cartera y las brechas de capacidad para intervenciones de capacitacion especificas.",
+      "icon": "Users"
+    }
+  ],
+  "sections": {
+    "creditRisk": {
+      "title": "Evaluacion del Riesgo Crediticio",
+      "text": "Nuestra metodologia de evaluacion del riesgo crediticio integra los indicadores de credito tradicionales con puntuaciones de vulnerabilidad climatica y factores de riesgo social. Al combinar el historial financiero, la exposicion climatica sectorial y los indicadores de resiliencia del prestatario, generamos calificaciones crediticias compuestas que reflejan con mayor precision la probabilidad de incumplimiento real para carteras agricolas y rurales.",
+      "features": [
+        "Calificaciones crediticias ajustadas al clima para prestatarios agricolas",
+        "Modelos de riesgo sectoriales para instituciones de microfinanzas",
+        "Analisis de flujo de caja incorporando variabilidad estacional y climatica",
+        "Pruebas de estres de cartera bajo escenarios de cambio climatico",
+        "Indicadores de alerta temprana para segmentos de prestamos en riesgo"
+      ]
+    },
+    "financialRisks": {
+      "title": "Riesgos Financieros Sociales, Climaticos y Naturales",
+      "text": "En asociacion con el CIAT (Centro Internacional de Agricultura Tropical), YAPU ha desarrollado un marco integral para identificar y cuantificar los riesgos financieros sociales, climaticos y relacionados con la naturaleza en carteras de microfinanzas. Este marco se alinea con las recomendaciones del TCFD y la orientacion emergente del TNFD sobre riesgos relacionados con la naturaleza.",
+      "features": [
+        "Apoyo a la divulgacion de riesgos climaticos alineado con TCFD",
+        "Evaluacion de riesgos financieros relacionados con la naturaleza (marco TNFD)",
+        "Indicadores de riesgo social para genero, ingresos e impacto comunitario",
+        "Mapeo geografico de riesgos climaticos fisicos a la exposicion de la cartera",
+        "Analisis de riesgo de transicion para sectores dependientes de combustibles fosiles"
+      ]
+    },
+    "resilienceFinance": {
+      "title": "Finanzas de Resiliencia",
+      "text": "Las Finanzas de Resiliencia es la practica de dirigir capital hacia prestatarios y actividades que generan capacidad adaptativa al cambio climatico mientras se generan retornos financieros. El servicio de datos de Finanzas de Resiliencia de YAPU verifica la elegibilidad de la cartera segun los criterios taxonomicos verdes y climaticos, produce informes de impacto de calidad para inversores y apoya la estructuracion de bonos verdes y prestamos vinculados a la sostenibilidad.",
+      "features": [
+        "Verificacion de alineacion con taxonomia verde (UE, estandares nacionales)",
+        "Evaluacion de elegibilidad para el Climate Bonds Standard",
+        "Etiqueta de credito verde para carteras de prestamos elegibles",
+        "Produccion de informes de impacto para divulgacion a inversores",
+        "Diseno y monitoreo de KPIs para prestamos vinculados a la sostenibilidad"
+      ]
+    },
+    "performanceMonitoring": {
+      "title": "Monitoreo de Desempeno",
+      "text": "El monitoreo en tiempo real del desempeno del oficial de prestamo y la cartera permite a la gerencia identificar problemas temprano e intervenir antes de que se conviertan en problemas sistemicos. Los paneles de monitoreo de desempeno de YAPU integran metricas de calidad de prestamos, datos de actividad del equipo e indicadores de impacto en una unica vista de gestion accesible desde cualquier dispositivo.",
+      "features": [
+        "Paneles de calidad de cartera de prestamos en tiempo real",
+        "Seguimiento de productividad y actividad de oficiales de prestamo",
+        "Monitoreo de indicadores de impacto a nivel de cartera",
+        "Alertas automatizadas por mora e incumplimiento de convenios",
+        "Comparacion con datos de desempeno de IMF comparables"
+      ]
+    },
+    "capacityBuilding": {
+      "title": "Fortalecimiento de Capacidades",
+      "text": "El uso efectivo de los analisis de datos requiere capacidad institucional en tres dimensiones: comprender que datos recopilar, la capacidad tecnica para analizarlos y la cultura organizacional para actuar sobre los hallazgos. El servicio de fortalecimiento de capacidades de YAPU aborda las tres dimensiones a traves de un programa estructurado.",
+      "pillars": [
+        {
+          "title": "Evaluacion Institucional",
+          "description": "Evaluamos la infraestructura de datos actual de su organizacion, las competencias del equipo y las practicas de gestion para identificar brechas y priorizar inversiones en capacidad."
+        },
+        {
+          "title": "Consultoria",
+          "description": "Brindamos apoyo consultivo continuo mientras su equipo implementa nuevas practicas de datos, revisando resultados, solucionando problemas y garantizando la alineacion con los requisitos de reporte de los inversores."
+        },
+        {
+          "title": "Capacitacion",
+          "description": "Impartimos programas de capacitacion practicos para oficiales de prestamo, analistas y gerentes que cubren recopilacion de datos, interpretacion del riesgo climatico y herramientas de reporte de impacto."
+        }
+      ]
+    }
+  }
+}

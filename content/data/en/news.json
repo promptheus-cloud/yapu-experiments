@@ -1,0 +1,171 @@
+{
+  "hero": {
+    "title": "News",
+    "subtitle": "Latest updates from YAPU Solutions",
+    "backgroundImage": "/images/news/news-header.jpeg",
+    "ctaText": "Read More",
+    "ctaHref": "/en/news"
+  },
+  "articles": [
+    {
+      "title": "YAPU launches Resilience Finance explainer series",
+      "date": "2023-02-09",
+      "categories": ["General", "Knowledge"],
+      "excerpt": "To de-mystify the topic of Resilience Finance, Christoph Jungfleisch, Managing Director of YAPU Solutions, has created an 8-part explainer series. Each part covers a key concept to help stakeholders better understand the topic that links climate, finance and the well-being of vulnerable populations around the world.",
+      "slug": "yapu-launches-resilience-finance-explainer-series",
+      "image": "/images/news/resilience-finance.png",
+      "externalUrl": "https://yapu.solutions/yapu-launches-resilience-finance-explainer-series/"
+    },
+    {
+      "title": "COP27 in Review",
+      "date": "2022-12-09",
+      "categories": ["General"],
+      "excerpt": "COP27 in Sharm El Sheikh has come to an end, and what has been achieved? To list the tangible results: a breakthrough \"Loss and Damages\" Fund for climate-vulnerable countries. In numerous side-events at the COP itself 150+ pledges staking more than USD 230 million were made to the Adaptation Fund and adaptation...",
+      "slug": "cop27-in-review",
+      "image": "/images/news/cop27-review.jpg",
+      "externalUrl": "https://yapu.solutions/cop27-in-review/"
+    },
+    {
+      "title": "Scale for Resilience at COP27",
+      "date": "2022-11-02",
+      "categories": ["General"],
+      "excerpt": "COP27 is just around the corner, running from November 6th-18th in Sharm El Sheikh, Egypt. We are excited for this year's edition of the most important climate conference and have a few recommendations for you, with a focus on the Resilience Hub. In fact, below we highlight two sessions which Scale for Resilience, our...",
+      "slug": "scale-for-resilience-at-cop27",
+      "image": "/images/news/cop27-scale.png",
+      "externalUrl": "https://yapu.solutions/scale-for-resilience-at-cop27/"
+    },
+    {
+      "title": "SARAS \u2013 A tool for sustainable development in Ecuador. Join free webinar",
+      "date": "2022-10-03",
+      "categories": ["General", "Knowledge"],
+      "excerpt": "As proposed by the Superintendence of Popular and Solidarity Economy in the recent resolution SEPS-IGT-IGJ-INFMR-INR-INGINT-2022-003, where the considerations that the State has to promote the sustainable development of Savings and Credit Cooperatives are its basis, it is mandatory for all microfinance institutions in Ecuador to validate a Social and Environmental Risk...",
+      "slug": "saras-a-tool-for-sustainable-development-in-ecuador",
+      "image": "/images/news/saras-ecuador.jpg",
+      "externalUrl": "https://yapu.solutions/saras-a-tool-for-sustainable-development-in-ecuador/"
+    },
+    {
+      "title": "Implementation of YAPU software with our partner CAURIE in Senegal",
+      "date": "2022-08-18",
+      "categories": ["Software"],
+      "excerpt": "Recently, the YAPU team, led by Delphin Ngamije conducted an intensive, practice-focused training in the context of the implementation of the YAPU software during a visit to our long-standing partner CAURIE MicroFinance in Senegal.",
+      "slug": "implementation-of-yapu-software-with-our-partner-caurie-in-senegal",
+      "image": "/images/news/caurie-senegal.jpg",
+      "externalUrl": "https://yapu.solutions/implementation-of-yapu-software-with-our-partner-caurie-in-senegal/"
+    },
+    {
+      "title": "Certification of the Superintendencia de Bancos for YAPU SERVICES in Ecuador",
+      "date": "2022-01-24",
+      "categories": ["General"],
+      "excerpt": "We are very happy to have obtained another important milestone: The Certification of the Superintendencia de Bancos for YAPU SERVICES in Ecuador.",
+      "slug": "certification-of-the-superintendencia-de-bancos-for-yapu-services-in-ecuador",
+      "image": "/images/news/super-yapu.jpeg",
+      "externalUrl": "https://yapu.solutions/certification-of-the-superintendencia-de-bancos-for-yapu-services-in-ecuador/"
+    },
+    {
+      "title": "BNP Paribas and Grameen Credit Agricole Foundation win the reputed GEF Challenge Program for Adaptation Innovation and partner with YAPU for implementation!",
+      "date": "2021-11-09",
+      "categories": ["General"],
+      "excerpt": "On November 8 during the COP26 climate summit the Global Environment Facility has announced 10 new winners of its Challenge Program for Adaptation Innovation.",
+      "slug": "bnp-paribas-gef-challenge-program",
+      "image": "/images/news/gef-challenge.jpeg",
+      "externalUrl": "https://yapu.solutions/bnp-paribas-and-grameen-credit-agricole-foundation-win-the-reputed-gef-challenge-program-for-adaptation-innovation-and-partner-with-yapu-for-implementation/"
+    },
+    {
+      "title": "YAPU Solutions at the fifth edition of the African Microfinance Week",
+      "date": "2021-11-09",
+      "categories": ["General"],
+      "excerpt": "The African Microfinance Week (called #SAM, based on the French acronym) is a conference held every two years. The fifth edition was held from October 18 to 22 at the Kigali Convention Center in Rwanda.",
+      "slug": "yapu-solutions-at-the-fifth-edition-of-the-african-microfinance-week",
+      "image": "/images/news/african-microfinance.jpeg",
+      "externalUrl": "https://yapu.solutions/yapu-solutions-at-the-fifth-edition-of-the-african-microfinance-week/"
+    },
+    {
+      "title": "Successfull launch event of Scale for Resilience in Latin America",
+      "date": "2021-09-24",
+      "categories": ["General"],
+      "excerpt": "On September 14, the Scale for Resilience virtual launch event for Latin America was held. More than 100 participants attended the introduction to the initiative and learned about the current state of inclusive finance for adaptation.",
+      "slug": "successfull-launch-event-of-scale-for-resilience-in-latin-america",
+      "image": "/images/news/scale-resilience-launch.jpeg",
+      "externalUrl": "https://yapu.solutions/successfull-launch-event-of-scale-for-resilience-in-latin-america/"
+    },
+    {
+      "title": "Towards 21st century-worth financial standards",
+      "date": "2021-08-02",
+      "categories": ["Knowledge"],
+      "excerpt": "Terms like \"Green Finance,\" \"Sustainable Finance,\" and \"Climate Finance\" are increasingly prominent in financial sector discussions globally, though unified taxonomies remain limited.",
+      "slug": "towards-21st-century-worth-financial-standards",
+      "image": "/images/news/sensor-analysis.jpeg",
+      "externalUrl": "https://yapu.solutions/towards-21st-century-worth-financial-standards/"
+    },
+    {
+      "title": "Exposure Data in Guatemala and Ecuador available!",
+      "date": "2021-08-01",
+      "categories": ["Consulting", "Knowledge"],
+      "excerpt": "Ecuador becomes the second country with complete country-level risk maps, enabling measurement of four climate events in agricultural risk assessments.",
+      "slug": "exposure-data-in-guatemala-and-ecuador-available",
+      "externalUrl": "https://yapu.solutions/exposure-data-in-guatemala-and-ecuador-available/"
+    },
+    {
+      "title": "The MEbA Project wins Kipepeo award for high environmental impact in Latin America & the Caribbean",
+      "date": "2021-07-16",
+      "categories": ["General"],
+      "excerpt": "On June 29, the Microfinance for Ecosystem-based Adaptation (MEbA) Project won the new annual UNEP Kipepeo Award in the environmental impact category among 55 nominations.",
+      "slug": "the-meba-project-wins-kipepeo-award",
+      "image": "/images/news/kipepeo-award.jpeg",
+      "externalUrl": "https://yapu.solutions/the-meba-project-wins-kipepeo-award-for-high-environmental-impact-in-latin-america-the-carribean/"
+    },
+    {
+      "title": "Successful closing events of the training phase of the MEbA Biodiversity Platform",
+      "date": "2021-05-11",
+      "categories": ["Consulting", "General"],
+      "excerpt": "On April 14 and 15, the official closing events of the training phase of the MEbA Biodiversity Platform were held, one for Latin America and one for West Africa.",
+      "slug": "successful-closing-events-meba-biodiversity-platform",
+      "image": "/images/news/meba-closing.jpeg",
+      "externalUrl": "https://yapu.solutions/successful-closing-events-of-the-training-phase-of-the-meba-biodiversity-platform/"
+    },
+    {
+      "title": "Become part of the NbScale4Resilience initiative!",
+      "date": "2021-04-15",
+      "categories": ["General"],
+      "excerpt": "During the first Climate Adaptation Summit in January 2021, global leaders urged channeling climate financing toward resilience efforts aligned with the Paris agreement framework.",
+      "slug": "become-part-of-the-nbscale4resilience-initiative",
+      "image": "/images/news/tomatos.jpeg",
+      "externalUrl": "https://yapu.solutions/become-part-of-the-nbscale4resilience-initiative/"
+    },
+    {
+      "title": "Indicators: crucial for comprehensive analysis",
+      "date": "2021-03-18",
+      "categories": ["Knowledge", "Software"],
+      "excerpt": "Indicators are an important ingredient of a financial analysis. They help to inform financial institutions in their risk analysis of a given loan.",
+      "slug": "indicators-crucial-for-comprehensive-analysis",
+      "image": "/images/news/indicators.jpeg",
+      "externalUrl": "https://yapu.solutions/indicators-crucial-for-comprehensive-analysis/"
+    },
+    {
+      "title": "YAPU Digital: agricultural lending adjusted to your needs",
+      "date": "2021-03-01",
+      "categories": ["Software"],
+      "excerpt": "The YAPU software is a powerful digital tool built on decades of experience in the (micro)financial sector.",
+      "slug": "yapu-digital-agricultural-lending-adjusted-to-your-needs",
+      "image": "/images/news/yapu-digital.jpeg",
+      "externalUrl": "https://yapu.solutions/yapu-digital-agricultural-lending-adjusted-to-your-needs/"
+    },
+    {
+      "title": "Summary Climate Adaptation Summit 2021",
+      "date": "2021-02-01",
+      "categories": ["General"],
+      "excerpt": "On January 25-26 the first (virtual) global Climate Adaptation Summit was hosted by the Netherlands. This high-level event dedicated to the role of Climate Adaptation in international climate politics also serves as a preparation of the #COP26 taking place in November in the United Kingdom.",
+      "slug": "summary-climate-adaptation-summit-2021",
+      "image": "/images/news/climate-adaptation-summit.jpeg",
+      "externalUrl": "https://yapu.solutions/summary-climate-adaptation-summit-2021/"
+    },
+    {
+      "title": "YAPU to be featured on first Climate Adaptation Summit",
+      "date": "2021-01-19",
+      "categories": ["General"],
+      "excerpt": "After a competitive process, YAPU Solutions has been identified as one of the leading innovative financing models for private sector investment in nature-based solutions for adaptation by the Global Commission on Adaptation's Nature-Based Solutions Action Track.",
+      "slug": "yapu-to-be-featured-on-first-climate-adaptation-summit",
+      "externalUrl": "https://yapu.solutions/yapu-to-be-featured-on-first-climate-adaptation-summit/"
+    }
+  ]
+}

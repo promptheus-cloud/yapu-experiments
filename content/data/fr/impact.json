@@ -1,0 +1,54 @@
+{
+  "hero": {
+    "title": "Impact",
+    "subtitle": "Creer un impact positif est dans l'ADN de YAPU Solutions",
+    "ctaText": "En Savoir Plus",
+    "ctaHref": "/fr/impact"
+  },
+  "digitalResilienceFinance": {
+    "title": "Finance Numerique de Resilience",
+    "text": "YAPU Solutions developpe des outils numeriques et des analyses de donnees pour aider les institutions financieres des marches emergents a mesurer, gerer et communiquer les risques sociaux et environnementaux. Nous combinons une connaissance approfondie du terrain avec une technologie de pointe pour aider nos clients a construire des portefeuilles resilients et durables. Notre approche comble le fosse entre les principes de finance responsable et la realite operationnelle, permettant aux institutions financieres de creer un impact durable pour leurs clients et investisseurs."
+  },
+  "scaleForResilience": {
+    "title": "Echelle pour la Resilience",
+    "text": "Nous travaillons avec des institutions financieres de developpement et des investisseurs a impact de premier plan pour mettre a l'echelle la finance de resilience dans les marches emergents. Nos partenariats avec l'Alliance for Financial Inclusion, CCAFS/CGIAR et GAWA Capital nous permettent de combiner des normes mondiales avec une expertise locale. Ensemble, nous developpons des outils et des methodologies qui aident les institutions de microfinance et leurs clients a s'adapter au changement climatique, renforcer les moyens de subsistance et batir une durabilite financiere a long terme.",
+    "partners": [
+      {
+        "name": "Alliance for Financial Inclusion",
+        "logo": "/logos/impact/alliance.png"
+      },
+      {
+        "name": "CCAFS/CGIAR",
+        "logo": "/logos/impact/ccafs.png"
+      },
+      {
+        "name": "GAWA Capital",
+        "logo": "/logos/impact/gawa-capital.png"
+      }
+    ]
+  },
+  "impactReferences": [
+    {
+      "title": "MEbA",
+      "description": "Microfinance pour l'Adaptation basee sur les Ecosystemes (MEbA) — une initiative conjointe avec l'Alliance for Financial Inclusion qui a developpe des produits de microfinance verte et des cadres de mesure aidant les communautes a faibles revenus a s'adapter au changement climatique grace a l'acces au financement.",
+      "link": "https://yapu.solutions/impact",
+      "logo": "/logos/impact/meba.png"
+    },
+    {
+      "title": "ECOMICRO",
+      "description": "ECOMICRO est un programme IDB Lab qui soutient les institutions de microfinance dans la conception et le deploiement de produits financiers respectueux de l'environnement. YAPU a fourni des outils de collecte de donnees et une methodologie de mesure d'impact aux IMF participantes en Amerique latine et dans les Caraibes.",
+      "link": "https://yapu.solutions/impact",
+      "logo": "/logos/impact/ecomicro.svg"
+    },
+    {
+      "title": "Serie de Webinaires",
+      "description": "YAPU a co-organise une serie de webinaires internationaux sur la finance de resilience, le risque climatique et la microfinance durable, reunissant des praticiens, des chercheurs et des regulateurs de plus de 30 pays pour partager les connaissances et les meilleures pratiques.",
+      "link": "https://yapu.solutions/impact"
+    },
+    {
+      "title": "Plateforme Biodiversite MEbA",
+      "description": "Une extension de l'initiative MEbA axee sur la finance de la biodiversite — developpement d'outils pour aider les institutions financieres a mesurer et rendre compte des risques et opportunites lies a la nature dans leurs portefeuilles, en alignement avec les cadres TNFD emergents.",
+      "link": "https://yapu.solutions/impact"
+    }
+  ]
+}

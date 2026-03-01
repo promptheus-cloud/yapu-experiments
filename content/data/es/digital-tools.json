@@ -1,0 +1,108 @@
+{
+  "hero": {
+    "title": "Herramientas Digitales",
+    "subtitle": "Tecnologia para la inclusion financiera — permitiendo a las instituciones de microfinanzas trabajar de manera mas inteligente, rapida y sostenible.",
+    "ctaText": "Saber Mas",
+    "ctaHref": "/es/digital-tools"
+  },
+  "sections": {
+    "frontOffice": {
+      "title": "Su Front Office Digital",
+      "subtitle": "Empodere a sus oficiales de prestamo con herramientas moviles para la recopilacion de datos y gestion de clientes.",
+      "text": "El modulo Front Office de YAPU brinda a los oficiales de prestamo las herramientas que necesitan para recopilar datos de campo, gestionar relaciones con clientes y procesar solicitudes completamente desde un dispositivo movil. El inicio de sesion seguro con acceso basado en roles garantiza que la informacion sensible de los clientes permanezca protegida, mientras la sincronizacion de datos en tiempo real mantiene a todo el equipo actualizado.",
+      "features": [
+        "Inicio de sesion seguro y control de usuarios",
+        "Recopilacion de datos en el campo",
+        "Resultados siempre a la mano",
+        "Vista de cartera de clientes con historial completo de prestamos",
+        "Carga y verificacion de documentos digitales"
+      ]
+    },
+    "teamManagement": {
+      "title": "Su Gestion de Equipos Digital",
+      "subtitle": "Supervise, asigne y monitoree su equipo desde un unico panel.",
+      "text": "Los supervisores pueden asignar actividades, rastrear el desempeno de los oficiales de prestamo y monitorear la calidad de la cartera en todos los equipos desde un unico panel. El seguimiento de actividades integrado reduce la carga administrativa y garantiza que los supervisores dediquen su tiempo a la capacitacion y la toma de decisiones en lugar de la agregacion manual de datos.",
+      "features": [
+        "Asigne actividades y tareas a oficiales de prestamo",
+        "Supervise el progreso de su equipo en tiempo real",
+        "Monitoree el desempeno con metricas de calidad",
+        "Programacion automatica de visitas y optimizacion de rutas",
+        "Notificaciones push para aprobaciones pendientes y alertas"
+      ]
+    },
+    "loanDecision": {
+      "title": "Su Decision de Prestamo Digital",
+      "subtitle": "Automatice la evaluacion crediticia con reglas configurables y comites de credito virtuales.",
+      "text": "El modulo de Decision de Prestamo de YAPU automatiza el proceso de evaluacion crediticia utilizando reglas y modelos de puntuacion configurables. Un comite de credito virtual integrado permite flujos de trabajo de aprobacion de varios niveles, reduciendo el tiempo de decision mientras se mantiene la gobernanza y los registros de auditoria para el cumplimiento normativo.",
+      "features": [
+        "Defina reglas para la puntuacion crediticia automatizada",
+        "Organice comites de credito virtuales",
+        "Analisis de datos para una puntuacion mejorada",
+        "Registro de auditoria de decisiones para cumplimiento normativo",
+        "Toma de decisiones en tiempo real con umbrales configurables"
+      ]
+    },
+    "apiIntegration": {
+      "title": "YAPU API: Integre con Cualquier Sistema",
+      "subtitle": "Conecte YAPU a sus sistemas bancarios centrales y proveedores de datos externos.",
+      "text": "La API de YAPU permite la integracion perfecta con sistemas bancarios centrales, buro de credito y proveedores de datos de terceros. Los endpoints RESTful con documentacion completa permiten a los equipos de desarrollo construir integraciones personalizadas y ampliar la funcionalidad de YAPU para adaptarse a los flujos de trabajo institucionales existentes.",
+      "features": [
+        "Integre YAPU con su sistema existente",
+        "Adapte a sus necesidades especificas",
+        "Integracion de consultas al buro de credito",
+        "Conectores de fuentes de datos de terceros (clima, satelite)",
+        "Soporte de Webhook para notificaciones de eventos en tiempo real"
+      ]
+    },
+    "learningOrganization": {
+      "title": "Su Organizacion de Aprendizaje",
+      "subtitle": "Bucles de retroalimentacion basados en datos que ayudan a su institucion a mejorar continuamente.",
+      "text": "Las organizaciones basadas en datos mejoran mas rapido. El modulo Organizacion de Aprendizaje de YAPU proporciona monitoreo de desempeno en tiempo real y bucles de retroalimentacion que ayudan a las instituciones a identificar que funciona, replicar exitos y reducir sistematicamente los errores en toda la organizacion a lo largo del tiempo.",
+      "features": [
+        "Monitoreo en tiempo real de la calidad de prestamos por oficial",
+        "Retroalimentacion automatizada sobre tendencias de desempeno de la cartera",
+        "Base de conocimientos para mejores practicas y materiales de capacitacion",
+        "Analisis de tendencias de desempeno y pronosticos",
+        "Panel de aprendizaje institucional para la gerencia"
+      ]
+    },
+    "features": [
+      {
+        "title": "Gestion de Flujos de Trabajo",
+        "description": "Flujos de trabajo de originacion de prestamos de extremo a extremo optimizados que eliminan pasos manuales y reducen el tiempo de procesamiento.",
+        "icon": "Workflow"
+      },
+      {
+        "title": "Equipo Conectado",
+        "description": "Mantenga a los agentes de campo, supervisores y personal de la oficina central conectados y coordinados con mensajeria en tiempo real y comparticion de tareas.",
+        "icon": "Users"
+      },
+      {
+        "title": "Funcion Sin Conexion",
+        "description": "Funcionalidad completa en areas sin conectividad a internet: los datos se sincronizan automaticamente cuando se restaura la conexion.",
+        "icon": "WifiOff"
+      },
+      {
+        "title": "Puntuacion Mejorada",
+        "description": "Modelos de puntuacion crediticia mejorados que incorporan fuentes de datos alternativos para una evaluacion de riesgos mas precisa.",
+        "icon": "BarChart"
+      },
+      {
+        "title": "Geo-Localizacion",
+        "description": "Mapeo de clientes habilitado por GPS y optimizacion de rutas para visitas de campo, reduciendo el tiempo de viaje y mejorando la cobertura.",
+        "icon": "MapPin"
+      },
+      {
+        "title": "Seguridad",
+        "description": "Seguridad de nivel empresarial con cifrado de extremo a extremo, controles de acceso basados en roles y registro de auditoria.",
+        "icon": "Shield"
+      }
+    ]
+  },
+  "testimonial": {
+    "quote": "El software de YAPU cambio completamente la forma en que trabajamos. La funcionalidad sin conexion y la sincronizacion en tiempo real han sido factores determinantes para nuestras operaciones.",
+    "author": "Abou Baker",
+    "role": "Director de Operaciones",
+    "organization": "Agencia Panafricana de Microfinanzas"
+  }
+}

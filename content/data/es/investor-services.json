@@ -1,0 +1,105 @@
+{
+  "hero": {
+    "title": "Servicios para Inversores",
+    "subtitle": "Mida las vulnerabilidades climaticas e identifique oportunidades de finanzas verdes en su cartera.",
+    "ctaText": "Saber Mas",
+    "ctaHref": "/es/investor-services"
+  },
+  "approach": {
+    "title": "Nuestro Enfoque",
+    "text": "Creemos en un mercado de finanzas de resiliencia prospero donde las carteras sostenibles generen tanto impacto como rendimientos. Nuestro enfoque integra el riesgo climatico, el impacto social y la verificacion de taxonomia de finanzas verdes para ayudar a los inversores a construir carteras resilientes al cambio climatico y alineadas con los estandares internacionales de sostenibilidad."
+  },
+  "services": [
+    {
+      "title": "Desarrollo de Estrategia",
+      "description": "Ayudamos a los inversores a definir su estrategia de finanzas de resiliencia, estableciendo objetivos e indicadores alineados con los estandares internacionales y los mandatos de los inversores.",
+      "icon": "Compass"
+    },
+    {
+      "title": "Consultoria Operacional",
+      "description": "Apoyamos la implementacion operativa de estrategias de sostenibilidad, capacitando equipos y estableciendo procesos para la gestion del riesgo climatico y el impacto.",
+      "icon": "Users"
+    },
+    {
+      "title": "Certificacion de Cartera",
+      "description": "Verificamos la alineacion de la cartera con las taxonomias de finanzas verdes y los marcos de resiliencia climatica, proporcionando certificacion de terceros para el reporte a inversores.",
+      "icon": "Award"
+    },
+    {
+      "title": "Generacion de Cartera",
+      "description": "Identificamos y originamos carteras de prestamos resilientes aplicando filtros de riesgo climatico y puntuacion de impacto a operaciones en proceso y carteras existentes.",
+      "icon": "Briefcase"
+    },
+    {
+      "title": "Medicion de Impacto",
+      "description": "Disenamos e implementamos marcos de medicion de impacto que cubren dimensiones ambientales y sociales, produciendo informes de impacto de calidad para inversores.",
+      "icon": "Target"
+    },
+    {
+      "title": "Propuesta de Valor para el Inversor",
+      "description": "Desarrollamos propuestas de valor convincentes para los inversores traduciendo datos complejos de resiliencia en narrativas claras para la captacion de fondos y la comunicacion con partes interesadas.",
+      "icon": "TrendingUp"
+    }
+  ],
+  "pathToResilience": {
+    "title": "Camino hacia la Resiliencia",
+    "stages": [
+      {
+        "title": "Reaccion",
+        "description": "Identificar y comprender las vulnerabilidades climaticas y sociales en la cartera existente. Evaluar la exposicion a riesgos fisicos y de transicion y establecer una linea base."
+      },
+      {
+        "title": "Divulgacion",
+        "description": "Reportar sobre riesgos y oportunidades climaticos y sociales de acuerdo con marcos internacionales (TCFD, GRI, ODS). Construir transparencia para inversores y reguladores."
+      },
+      {
+        "title": "Promocion",
+        "description": "Promover activamente productos de finanzas de resiliencia a inversores de impacto. Demostrar credenciales verdes verificadas e impacto medible para atraer capital alineado."
+      }
+    ]
+  },
+  "impactMeasurement": {
+    "title": "Medicion de Impacto",
+    "environmental": {
+      "percentage": "0%",
+      "description": "de la cartera examinada climaticamente para vulnerabilidades ambientales y elegibilidad de finanzas verdes"
+    },
+    "social": {
+      "percentage": "0%",
+      "description": "de la cartera evaluada para indicadores de impacto social que cubren genero, ingresos y resiliencia comunitaria"
+    }
+  },
+  "sdgs": [1, 2, 5, 7, 8, 10, 12, 13, 15],
+  "useCases": [
+    {
+      "title": "Cartera IMF Agricola",
+      "social": 87,
+      "environmental": 62,
+      "sdgs": [1, 2, 13, 15]
+    },
+    {
+      "title": "Credito Verde a PYMES",
+      "social": 74,
+      "environmental": 89,
+      "sdgs": [7, 8, 12, 13]
+    },
+    {
+      "title": "Inclusion Financiera de la Mujer",
+      "social": 95,
+      "environmental": 45,
+      "sdgs": [1, 5, 8, 10]
+    },
+    {
+      "title": "Agricultura Inteligente ante el Clima",
+      "social": 81,
+      "environmental": 93,
+      "sdgs": [2, 12, 13, 15]
+    }
+  ],
+  "greenFinanceRadar": {
+    "title": "Radar de Finanzas Verdes",
+    "text": "El Radar de Finanzas Verdes es la herramienta propietaria de YAPU para identificar, verificar e informar sobre actividades de finanzas verdes en carteras de microfinanzas e inversion de impacto. Combina la alineacion taxonomica, la puntuacion del riesgo climatico y el mapeo de ODS en un unico panel listo para inversores.",
+    "ctaText": "Explorar el Radar",
+    "ctaHref": "/es/investor-services"
+  }
+}

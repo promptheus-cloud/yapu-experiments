@@ -1,0 +1,88 @@
+{
+  "hero": {
+    "title": "Acerca de YAPU",
+    "subtitle": "Desarrollamos herramientas digitales para las finanzas sostenibles en mercados emergentes",
+    "ctaText": "Conoce el Equipo",
+    "ctaHref": "/es/about"
+  },
+  "origin": {
+    "title": "YAPU Deriva de Yapuchiri",
+    "body": "El nombre YAPU proviene de la palabra aymara \"Yapuchiri\" — que significa \"el que sabe\". Este es el nombre dado a los agricultores mas experimentados de las comunidades andinas, aquellos que poseen un profundo conocimiento de la tierra, las estaciones y las necesidades de su comunidad. Representa la interseccion entre la sabiduria local y la experiencia practica que guia todo lo que hacemos en YAPU Solutions.\n\nFundada en Berlin, YAPU Solutions nacio de un compromiso compartido de hacer que los sistemas financieros funcionen para todos. Creemos que la tecnologia digital y los enfoques basados en datos pueden transformar fundamentalmente la forma en que las instituciones financieras en los mercados emergentes sirven a sus clientes, ayudandoles a construir resiliencia, gestionar riesgos y crear un impacto positivo duradero."
+  },
+  "team": [
+    {
+      "name": "Esthela Gaspar",
+      "email": "info@yapu.solutions",
+      "linkedin": "",
+      "photo": "/images/team/esthela-gaspar.jpg"
+    },
+    {
+      "name": "Christoph Jungfleisch",
+      "email": "info@yapu.solutions",
+      "linkedin": "",
+      "photo": "/images/team/christoph-jungfleisch.jpg"
+    },
+    {
+      "name": "Hong Lem",
+      "email": "info@yapu.solutions",
+      "linkedin": "",
+      "photo": "/images/team/hong-lem.jpg"
+    },
+    {
+      "name": "Yessenia Naranjo",
+      "email": "info@yapu.solutions",
+      "linkedin": "",
+      "photo": "/images/team/yessenia-naranjo.jpg"
+    },
+    {
+      "name": "Delphin Ngamije",
+      "email": "info@yapu.solutions",
+      "linkedin": "",
+      "photo": "/images/team/delphin-ngamije.jpg"
+    },
+    {
+      "name": "Katy Osculio",
+      "email": "info@yapu.solutions",
+      "linkedin": "",
+      "photo": "/images/team/katy-osculio.jpg"
+    },
+    {
+      "name": "Jaime Osorio",
+      "email": "info@yapu.solutions",
+      "linkedin": "",
+      "photo": "/images/team/jaime-osorio.jpg"
+    },
+    {
+      "name": "Priscila Palate",
+      "email": "info@yapu.solutions",
+      "linkedin": "",
+      "photo": "/images/team/priscila-palate.jpg"
+    },
+    {
+      "name": "Alexander Ulbrich",
+      "email": "info@yapu.solutions",
+      "linkedin": "",
+      "photo": "/images/team/alexander-ulbrich.jpg"
+    },
+    {
+      "name": "Sven Volland",
+      "email": "info@yapu.solutions",
+      "linkedin": "",
+      "photo": "/images/team/sven-volland.jpg"
+    },
+    {
+      "name": "Katherine Zambrano",
+      "email": "info@yapu.solutions",
+      "linkedin": "",
+      "photo": "/images/team/katherine-zambrano.jpg"
+    }
+  ],
+  "mission": {
+    "title": "Nuestra Mision",
+    "text": "La mision de YAPU Solutions es acelerar las finanzas sostenibles e inclusivas a traves de la tecnologia y los datos. Desarrollamos herramientas digitales, analitica de datos y servicios de consultoria que ayudan a las instituciones financieras en los mercados emergentes a medir, gestionar y comunicar su desempeno social y ambiental. Combinando profunda experiencia de campo con tecnologia de vanguardia, capacitamos a nuestros clientes para tomar mejores decisiones, construir carteras mas solidas y generar mayor impacto para las comunidades a las que sirven."
+  },
+  "sdgs": [1, 2, 7, 8, 10, 12, 13, 15],
+  "contact": {
+    "intro": "Interesado en trabajar con YAPU Solutions? Ya sea que usted sea una institucion financiera que busca herramientas digitales, un inversor que busca apoyo en la medicion de impacto, o un investigador interesado en una colaboracion — nos encantaria saber de usted."
+  }
+}

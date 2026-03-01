@@ -1,0 +1,97 @@
+{
+  "hero": {
+    "title": "Digital Tools",
+    "subtitle": "With our flexible APP and API builder, you access your data insights via all channels.",
+    "ctaText": "Learn More",
+    "ctaHref": "/en/digital-tools"
+  },
+  "sections": {
+    "frontOffice": {
+      "title": "Your Digital Front Office",
+      "subtitle": "Your team has all forms and client information ready at any time.",
+      "text": "",
+      "features": [
+        "Secure log-in and user control",
+        "Gather data in the field",
+        "Have results always at hand"
+      ]
+    },
+    "teamManagement": {
+      "title": "Your Digital Team Management",
+      "subtitle": "Manage and supervise your team from anywhere.",
+      "text": "",
+      "features": [
+        "Assign activities and tasks",
+        "Supervise your teams progress",
+        "Monitor performance"
+      ]
+    },
+    "loanDecision": {
+      "title": "Your Digital Loan Decision",
+      "subtitle": "Standardize and align your loan decisions - automated, transparent and seamless",
+      "text": "",
+      "features": [
+        "Define rules for automated loan decisions",
+        "Organize virtual credit committees",
+        "Include our data insights for decisions or recommendations"
+      ]
+    },
+    "apiIntegration": {
+      "title": "YAPU API: integrate with any system",
+      "subtitle": "Include the improved data analysis in your existing systems.",
+      "text": "",
+      "features": [
+        "Integrate YAPU with your existing systems",
+        "We adjust to the needs of your business"
+      ]
+    },
+    "learningOrganization": {
+      "title": "Your Learning Organization",
+      "subtitle": "Take informed management decisions.",
+      "text": "",
+      "features": [
+        "Monitor in real-time",
+        "Steer your areas",
+        "Project you success"
+      ]
+    },
+    "features": [
+      {
+        "title": "Workflow Management",
+        "description": "",
+        "icon": "Workflow"
+      },
+      {
+        "title": "Your Team Connected",
+        "description": "",
+        "icon": "Users"
+      },
+      {
+        "title": "Offline Function",
+        "description": "",
+        "icon": "WifiOff"
+      },
+      {
+        "title": "Improved Scoring",
+        "description": "",
+        "icon": "BarChart"
+      },
+      {
+        "title": "Geo-Localization",
+        "description": "",
+        "icon": "MapPin"
+      },
+      {
+        "title": "Security",
+        "description": "",
+        "icon": "Shield"
+      }
+    ]
+  },
+  "testimonial": {
+    "quote": "The YAPU software completely changed the way we work. Now can really use the data of our customers and operational cost were reduced by 50%",
+    "author": "Abou Baker",
+    "role": "",
+    "organization": "Pan African Microfinance"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "title": "YAPU facilita las finanzas de resiliencia para los mas vulnerables",
+    "subtitle": "YAPU Solutions proporciona herramientas digitales innovadoras que permiten a las instituciones financieras, inversionistas y organizaciones de desarrollo alcanzar un crecimiento sostenible e inclusivo.",
+    "ctaText": "prueba la APP ahora",
+    "ctaHref": "https://my.yapu.solutions"
+  },
+  "serviceModules": [
+    {
+      "id": "investor-services",
+      "title": "Servicios para Inversores",
+      "bullets": ["Camino hacia la resiliencia", "Mide tu impacto", "Monitorea tu cartera en tiempo real"],
+      "readMoreText": "leer mas",
+      "href": "/es/investor-services",
+      "image": "/images/laptop-investor-services.png",
+      "imageAlt": "Laptop showing YAPU investor dashboard"
+    },
+    {
+      "id": "data-insights",
+      "title": "Analisis de Datos",
+      "bullets": ["Apoyo a la decision de prestamo", "Riesgos climaticos, ambientales y sociales", "Riesgo de biodiversidad", "Rendimiento del personal"],
+      "readMoreText": "leer mas",
+      "href": "/es/data-insights",
+      "image": "/images/laptop-data-insights.png",
+      "imageAlt": "Laptop showing YAPU data insights dashboard"
+    },
+    {
+      "id": "digital-tools",
+      "title": "Herramientas Digitales",
+      "bullets": ["Transformacion digital sencilla", "Mejor gestion de riesgos", "Analisis de datos"],
+      "readMoreText": "leer mas",
+      "href": "/es/digital-tools",
+      "image": "/images/phone-digital-tools.png",
+      "imageAlt": "Smartphone showing YAPU mobile app"
+    },
+    {
+      "id": "impact",
+      "title": "Impacto",
+      "bullets": ["Priorizando la inclusion financiera", "Promoviendo las finanzas verdes", "Fomentando la resiliencia climatica para los mas vulnerables"],
+      "readMoreText": "leer mas",
+      "href": "/es/impact",
+      "image": "/images/impact-header.jpg",
+      "imageAlt": "Scale for Resilience initiative"
+    }
+  ],
+  "testimonial": {
+    "quote": "YAPU's digital tools have transformed how we assess and monitor our lending portfolio, giving us real-time insights into both financial performance and social impact.",
+    "author": "Tina Livingston",
+    "role": "COO",
+    "organization": "COK Sodality"
+  },
+  "partnerLogos": [
+    {"alt": "United Nations", "src": "/logos/partners/un.png"},
+    {"alt": "IDB Invest", "src": "/logos/partners/idb-invest.png"},
+    {"alt": "IDB Lab", "src": "/logos/partners/idb-lab.png"},
+    {"alt": "BNP Paribas", "src": "/logos/partners/bnp-paribas.png"},
+    {"alt": "FMO", "src": "/logos/partners/fmo.png"},
+    {"alt": "Fondation Grameen", "src": "/logos/partners/fondation-grameen.png"},
+    {"alt": "SIDI", "src": "/logos/partners/sidi.png"},
+    {"alt": "CAF", "src": "/logos/partners/caf.png"},
+    {"alt": "Enclude", "src": "/logos/partners/enclude.png"},
+    {"alt": "European Microfinance Platform", "src": "/logos/partners/european-microfinance.png"},
+    {"alt": "Rice Exchange", "src": "/logos/partners/rice-exchange.png"},
+    {"alt": "IFAD", "src": "/logos/partners/ifad.png"}
+  ],
+  "clientLogos": [
+    {"alt": "Genesis", "src": "/logos/clients/genesis.png"},
+    {"alt": "Banco de Loja", "src": "/logos/clients/banco-de-loja.png"},
+    {"alt": "RFD", "src": "/logos/clients/rfd.png"},
+    {"alt": "Codesarrollo", "src": "/logos/clients/codesarrollo.png"},
+    {"alt": "Fundecooperacion", "src": "/logos/clients/fundecooperacion.png"},
+    {"alt": "BFA", "src": "/logos/clients/bfa.png"},
+    {"alt": "Banco ADOPEM", "src": "/logos/clients/banco-adopem.png"},
+    {"alt": "De La Mujer", "src": "/logos/clients/delamujer.png"},
+    {"alt": "Banque Agricole", "src": "/logos/clients/banque-agricole.png"},
+    {"alt": "Coomultagro", "src": "/logos/clients/coomultagro.png"},
+    {"alt": "Tulcan", "src": "/logos/clients/tulcan.png"},
+    {"alt": "Guaranda", "src": "/logos/clients/guaranda.png"},
+    {"alt": "Caurie", "src": "/logos/clients/caurie.png"},
+    {"alt": "Comuba", "src": "/logos/clients/comuba.png"},
+    {"alt": "Nitlapan", "src": "/logos/clients/nitlapan.png"}
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "sectionTypes": {
+    "hero": {
+      "description": "Grosser Header mit Titel, Untertitel und Call-to-Action Button",
+      "props": {
+        "title": "string (required)",
+        "subtitle": "string (required)",
+        "ctaText": "string (required)",
+        "ctaHref": "string (required)"
+      }
+    },
+    "content": {
+      "description": "Text-Sektion mit optionaler Feature-Liste",
+      "props": {
+        "title": "string (required)",
+        "text": "string (required)",
+        "features": "string[] (optional)"
+      }
+    },
+    "testimonial": {
+      "description": "Kundenzitat mit Autor-Info",
+      "props": {
+        "title": "string (required)",
+        "quote": "string (required)",
+        "author": "string (required)",
+        "role": "string (required)",
+        "organization": "string (required)"
+      }
+    },
+    "newsletter": {
+      "description": "Newsletter-Anmeldung (keine Props noetig)",
+      "props": {}
+    },
+    "partnerCarousel": {
+      "description": "Endlos-Slider mit Partner-Logos",
+      "props": {
+        "title": "string (required)",
+        "logos": "Array<{alt: string, src: string}> (required)"
+      }
+    },
+    "clientCarousel": {
+      "description": "Endlos-Slider mit Kunden-Logos (Grayscale)",
+      "props": {
+        "title": "string (required)",
+        "logos": "Array<{alt: string, src: string}> (required)"
+      }
+    }
+  }
+}

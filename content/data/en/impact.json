@@ -1,0 +1,85 @@
+{
+  "hero": {
+    "title": "Impact",
+    "subtitle": "Creating positive impact is at the DNA of YAPU Solutions. This is where we started and we still do it today.",
+    "backgroundImage": "/images/impact-hero.jpg"
+  },
+  "digitalResilienceFinance": {
+    "title": "Digital Resilience Finance",
+    "rows": [
+      {
+        "image": "/images/impact-phoneinhand.jpg",
+        "text": "Our digital tools support financial institutions with an automated credit analysis to understand the economic and financial reality of their clients."
+      },
+      {
+        "image": "/images/impact-field1.jpg",
+        "text": "We enable Financial institutions to become agents of change: Due to lower operating costs and a complete view on their risks, they can become champions of financial inclusion and ecologic transformation."
+      },
+      {
+        "image": "/images/impact-field2.jpg",
+        "text": "The automated credit analysis also contains climate indicators highlighting the exposure of given clients and the sensitivity of their crops. Based on this information our customers can leverage taxonomies of nature-based solutions provided by YAPU to increase not only a clients productivity, but also their resilience against climate events."
+      }
+    ]
+  },
+  "scaleForResilience": {
+    "title": "Scale for Resilience",
+    "intro": "In 2021 we established with our partner CIAT/CGIAR and GAWA Capital Scale for Resilience. This initiative forms part of the UNFCCC Race to Resilience.",
+    "headerImage": "/images/impact-s4r-header.jpg",
+    "logo": "/logos/impact/scale-for-resilience.png",
+    "description": "Scale for Resilience aims to make smallholder farmers and rural communities around the world more resilient, by leveraging the benefits of Nature-based Solutions (NbS). To achieve this, all parts of the financial value chain are addressed seeking to create the conditions to finance NbS on a large scale by promoting digital tools.",
+    "ctaText": "visit website",
+    "ctaHref": "https://www.scaleforresilience.global/",
+    "partners": [
+      {
+        "name": "Alliance for Financial Inclusion",
+        "logo": "/logos/impact/alliance.png"
+      },
+      {
+        "name": "CCAFS/CGIAR",
+        "logo": "/logos/impact/ccafs.png"
+      },
+      {
+        "name": "GAWA Capital",
+        "logo": "/logos/impact/gawa-capital.png"
+      }
+    ]
+  },
+  "impactReferences": [
+    {
+      "title": "MEBA",
+      "subtitle": "Microfinance for ecosystem-based adaptation",
+      "description": "The MEbA project seeks to provide vulnerable populations with access to microfinance products and services to foment their climate change adaptation.\n\nIt works with Microfinance Institutions (MFIs) as agents of change and primarily targets to de-risk small-scale agricultural finance by proactively managing climate change. With that target, the project creates local adaptation capacities and aims to leverage and mainstream additional public and private finance for Ecosystem-based Adaptation (EbA).",
+      "image": "/images/impact-refs/meba-header.jpeg",
+      "logo": "/logos/impact/meba.png",
+      "link": "/en/impact/meba",
+      "layout": "picture-left"
+    },
+    {
+      "title": "ECOMICRO",
+      "subtitle": "Agricultural Finance and Smart Data for Climate Adaptation in Ecuador",
+      "description": "This EcoMicro project is geared toward small-scale agricultural producers and enterprises in rural areas at the national level in Ecuador and seeks to use data and finance to improve their climate resilience.\n\nMicrofinance institutions as partners are supported in proactively manage climate change risks and to provide effective and cost-beneficial solutions to target vulnerable populations. YAPU\u2019s platform is provided to operationalize these efforts.",
+      "image": "/images/impact-refs/ecomicro-slide.jpeg",
+      "logo": "/logos/impact/ecomicro.svg",
+      "link": "/en/impact/ecomicro",
+      "layout": "picture-right"
+    },
+    {
+      "title": "WEBINAR SERIES",
+      "subtitle": "HOW TO RESPOND AS FINANCIAL INSTITUTION TO THE CORONA-CRISIS",
+      "description": "The global spread of the COVID19-Virus put the world in an unprecedented situation since the beginning of 2020. Various governmental countermeasures put financial institutions under extreme pressure.\n\nBetween April 7 and April 28 in 2020, the webinar series - developed and delivered by YAPU, ID - inspiring development and DigitalBank LatAm - provided financial institutions in Latin America with concrete suggestions on how to address the emerging crisis in sustainable ways.",
+      "image": "/images/impact-refs/seminar-header.jpeg",
+      "logo": null,
+      "link": "/en/impact/webinar-series",
+      "layout": "picture-left"
+    },
+    {
+      "title": "THE MEBA BIODIVERSITY PLATFORM",
+      "subtitle": "AGRICULTURE LENDING INCLUDING CLIMATE AND BIODIVERSITY IMPACTS",
+      "description": "Biodiversity is a key component for agricultural finance, but threatened globally weakening agricultural production. It seldomly is considered in credit decisions, further increasing that tendency.\n\nThe MEbA Biodiversity Platform seeks to provide interested financial institutions to seamlessly integrate biodiversity risk assessment into existing processes. In consequence it also targets to enable specific refinancing solutions and support solid and sound MRV systems.",
+      "image": "/images/impact-refs/biodiversity.jpeg",
+      "logo": "/logos/impact/meba.png",
+      "link": "/en/impact/the-meba-biodiversity-platform",
+      "layout": "picture-right"
+    }
+  ]
+}

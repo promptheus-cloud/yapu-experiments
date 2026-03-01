@@ -1,0 +1,123 @@
+{
+  "hero": {
+    "title": "Investor Services",
+    "subtitle": "Measure climate vulnerabilities across all your operations and act upon them.",
+    "ctaText": "Learn More",
+    "ctaHref": "/en/investor-services"
+  },
+  "approach": {
+    "title": "Our Approach",
+    "text": "YAPU focuses on thriving resilience finance in informal markets through agri-, MSME and retail finance in developing countries. There, financial institutions often have considerable impact but do not measure it. With our data and tool solutions based on our proven methodologies, we help financial institutions make their impact visible, for every loan. Based on our graduation Model \"Path to Resilience\" we support them to build up resilient portfolios by addressing vulnerabilities against climate impacts in an informed manner. All easily integrated in daily operations."
+  },
+  "services": [
+    {
+      "title": "Strategy Development",
+      "description": "We help investors define their resilience finance strategy, setting targets and indicators aligned with international standards and investor mandates.",
+      "icon": "/images/investor-services/icon-strategy-development.png"
+    },
+    {
+      "title": "Operational Consulting",
+      "description": "We support the operational implementation of sustainability strategies, training teams and establishing processes for climate risk and impact management.",
+      "icon": "/images/investor-services/icon-operational-consulting.png"
+    },
+    {
+      "title": "Portfolio Certification",
+      "description": "We verify portfolio alignment with green finance taxonomies and climate resilience frameworks, providing third-party certification for investor reporting.",
+      "icon": "/images/investor-services/icon-portfolio-certification.png"
+    },
+    {
+      "title": "Portfolio Generation",
+      "description": "We identify and originate resilient loan portfolios by applying climate risk filters and impact scoring to pipeline deals and existing portfolios.",
+      "icon": "/images/investor-services/icon-impact-measurement.svg"
+    },
+    {
+      "title": "Impact Measurement",
+      "description": "We design and implement impact measurement frameworks covering environmental and social dimensions, producing investor-grade impact reports.",
+      "icon": "/images/investor-services/icon-impact-measurement.svg"
+    },
+    {
+      "title": "Investor Value Proposition",
+      "description": "We develop compelling investor value propositions by translating complex resilience data into clear narratives for fundraising and stakeholder communication.",
+      "icon": "/images/investor-services/icon-investor-value-proposition.svg"
+    }
+  ],
+  "pathToResilience": {
+    "title": "Path to Resilience",
+    "stages": [
+      {
+        "title": "Reaction",
+        "description": "no understanding, no disclosure, no promotion; reaction only after the fact \u2013 problem already manifested",
+        "image": "/images/investor-services/stage-reaction.png"
+      },
+      {
+        "title": "Disclosure",
+        "description": "Portfolio or Institutional level: environmental and social risks; Per transaction - disclosure of: gross climate risk; net climate risk",
+        "image": "/images/investor-services/stage-disclosure.png"
+      },
+      {
+        "title": "Promotion",
+        "description": "Promotion of resilience with: quick reaction to manifested climate threats; specific resilience finance products; AI-based recommendation systems; alignment with national climate strategies and taxonomies.",
+        "image": "/images/investor-services/stage-promotion.png"
+      }
+    ]
+  },
+  "impactMeasurement": {
+    "title": "Impact Measurement",
+    "environmental": {
+      "percentage": "0%",
+      "description": "Each operation, like a loan, is assessed for its environmental risks and impacts. We create meaningful metrics based on digitally gathered data.",
+      "image": "/images/investor-services/env-24-pc.png"
+    },
+    "social": {
+      "percentage": "0%",
+      "description": "The social dimension of loans and investments is crucial, yet often not determined. We make it visible with our tools and data solutions.",
+      "image": "/images/investor-services/social-45-pc.png"
+    }
+  },
+  "sdgs": [1, 2, 5, 7, 8, 10, 12, 13, 15],
+  "sdgDescription": "The Sustainable Development Goals (SDGs) are an internationally acclaimed framework to measure sustainable development established by the United Nations. We support you to measure the impact of every operation with regard to the SDGs.",
+  "useCases": [
+    {
+      "title": "Traditional Microfinance",
+      "description": "Traditional Microfinance commits in the first place to increase financial inclusion. The social impact of Microfinance is high, when done right. We support MFIs with a digital loan origination which includes tracking their social or environmental impact. To make it visible and increase it.",
+      "social": 70,
+      "environmental": 10,
+      "sdgs": [1, 2, 5, 8, 10],
+      "socialImage": "/images/investor-services/social-70-pc.png",
+      "environmentalImage": "/images/investor-services/env-10-pc.png"
+    },
+    {
+      "title": "Inclusive Resilience Finance",
+      "description": "Inclusive resilience finance is at the core of YAPUs mission. We gathered experience in pioneering international best practice projects and can rely on proven methodologies: To develop green loan products, establish taxonomies for resilience measures and verify green credits, so that financial inclusion is combined with effective climate change adaptation.",
+      "social": 100,
+      "environmental": 90,
+      "sdgs": [1, 2, 7, 10, 12, 13, 15],
+      "socialImage": "/images/investor-services/social-100-pc.png",
+      "environmentalImage": "/images/investor-services/env-90-pc.png"
+    },
+    {
+      "title": "Inclusive Sustainable Construction",
+      "description": "Sustainable construction is a key sector to reach resilience against climate events, but also energy efficient housing solutions. We support financial institution to track their green performance in financing energy efficiency for every singly credit and throughout portfolios. All integrated and with ease.",
+      "social": 80,
+      "environmental": 90,
+      "sdgs": [7, 10, 11, 13],
+      "socialImage": "/images/investor-services/social-80-pc.png",
+      "environmentalImage": "/images/investor-services/env-90-pc.png"
+    },
+    {
+      "title": "Energy Efficiency",
+      "description": "Energy efficiency is one of the great leavers to contribute to mitigate climate change and will continue to grow in importance in the coming years. Energy efficiency can be financed on all levels, from retail to MSME. We support financial institution to track their green performance in financing energy efficiency for every singly credit and throughout portfolios. All integrated and with ease.",
+      "social": 20,
+      "environmental": 90,
+      "sdgs": [7, 10, 13, 12],
+      "socialImage": "/images/investor-services/social-20-pc.png",
+      "environmentalImage": "/images/investor-services/env-90-pc.png"
+    }
+  ],
+  "greenFinanceRadar": {
+    "title": "Green finance radar",
+    "text": "YAPU is always screening for new opportunities for green financing. To be able to distribute and coordinate upcoming opportunities with the right partners, we invite you to participate in our Green Finance Radar. We will inform you if respective opportunities come up in your geographic area.",
+    "ctaText": "Sign Up",
+    "ctaHref": "/en/investor-services"
+  }
+}

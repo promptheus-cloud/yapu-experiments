@@ -1,0 +1,100 @@
+{
+  "hero": {
+    "title": "About",
+    "subtitle": "We make resilience finance operational.",
+    "ctaText": "Meet the Team",
+    "ctaHref": "/en/about"
+  },
+  "origin": {
+    "title": "YAPU Derives from Yapuchiri.",
+    "body": "These are traditional 'leader' farmers in the Bolivian andes. They collect, create and share agroecological knowledge and risk management strategies in the local area. Blending ancestral knowledge with newly adopted practices, Yapuchiris experiment on their own land then teach other farmers and local organisations about their successes.\n\nIn this spirit YAPU provides digital tools supporting financial institutions in developing countries targeting the most vulnerable, microenterprises and small- and medium-sized enterprises. We support our partners to identify social, climate and nature-related financial risks and address them with dedicated loan products. YAPU also collaborates with investors ensuring a comprehensive and verified view on the impact of their investments."
+  },
+  "team": [
+    {
+      "name": "Esthela Gaspar",
+      "email": "info@yapu.solutions",
+      "linkedin": "",
+      "photo": "/images/team/esthela-gaspar.jpg"
+    },
+    {
+      "name": "Christoph Jungfleisch",
+      "email": "info@yapu.solutions",
+      "linkedin": "",
+      "photo": "/images/team/christoph-jungfleisch.jpg"
+    },
+    {
+      "name": "Hong Lem",
+      "email": "info@yapu.solutions",
+      "linkedin": "",
+      "photo": "/images/team/hong-lem.jpg"
+    },
+    {
+      "name": "Yessenia Naranjo",
+      "email": "info@yapu.solutions",
+      "linkedin": "",
+      "photo": "/images/team/yessenia-naranjo.jpg"
+    },
+    {
+      "name": "Delphin Ngamije",
+      "email": "info@yapu.solutions",
+      "linkedin": "",
+      "photo": "/images/team/delphin-ngamije.jpg"
+    },
+    {
+      "name": "Katy Osculio",
+      "email": "info@yapu.solutions",
+      "linkedin": "",
+      "photo": "/images/team/katy-osculio.jpg"
+    },
+    {
+      "name": "Jaime Osorio",
+      "email": "info@yapu.solutions",
+      "linkedin": "",
+      "photo": "/images/team/jaime-osorio.jpg"
+    },
+    {
+      "name": "Priscila Palate",
+      "email": "info@yapu.solutions",
+      "linkedin": "",
+      "photo": "/images/team/priscila-palate.jpg"
+    },
+    {
+      "name": "Alexander Ulbrich",
+      "email": "info@yapu.solutions",
+      "linkedin": "",
+      "photo": "/images/team/alexander-ulbrich.jpg"
+    },
+    {
+      "name": "Sven Volland",
+      "email": "info@yapu.solutions",
+      "linkedin": "",
+      "photo": "/images/team/sven-volland.jpg"
+    },
+    {
+      "name": "Katherine Zambrano",
+      "email": "info@yapu.solutions",
+      "linkedin": "",
+      "photo": "/images/team/katherine-zambrano.jpg"
+    }
+  ],
+  "mission": {
+    "title": "Why We Do What We Do",
+    "text": "After years in MSME finance, YAPU's founders saw great potential in offering commercial and flexible digital solutions to the financial sector. Financial Institutions can be crucial agents of change in developing countries, oftentimes it depends on them whether a business can thrive or a farmer will have a good harvest. YAPU was founded to support financial institutions enabling more clients to pursue economic empowerment and social development while seeing and decreasing negative impact on the environment.\n\nOur platform enables financial institutions to seamlessly digitize their processes, enhance risk management and improve terms and conditions of value offerings to their customers. Financial institutions can expand and deepen their market outreach and become ready for additional investment based on their documented impact.\n\nYAPU thereby serves the sustainable development goals."
+  },
+  "sdgs": [1, 2, 7, 8, 10, 12, 13, 15],
+  "contact": {
+    "title": "We are looking for local partners",
+    "intro": "We are looking for local partners",
+    "addresses": [
+      {
+        "company": "YAPU Solutions GmbH",
+        "lines": ["Schönhauser Allee 44A", "10435 Berlin", "Germany"]
+      },
+      {
+        "company": "YAPU Services Ecuador S.A.",
+        "lines": ["Av. Atahualpa E1-131 y Av. República", "Quito", "Ecuador"]
+      }
+    ],
+    "email": "info@yapu.solutions"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "YAPU Solutions GmbH",
+  "email": "info@yapu.solutions",
+  "addresses": {
+    "berlin": {
+      "street": "Sch\u00f6nhauser Allee 44A",
+      "city": "Berlin",
+      "zip": "10435",
+      "country": "Germany"
+    },
+    "ecuador": {
+      "street": "Av. Atahualpa E1-131 y Av. Rep\u00fablica",
+      "city": "Quito",
+      "country": "Ecuador"
+    }
+  },
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/yapu-solutions/",
+    "twitter": "https://twitter.com/YAPU_Solutions",
+    "facebook": "https://www.facebook.com/YAPUSolutions",
+    "youtube": "https://www.youtube.com/channel/UCPPmFvebm721nQTdV78MDjg"
+  },
+  "website": "https://yapu.solutions",
+  "app": "https://my.yapu.solutions/"
+}

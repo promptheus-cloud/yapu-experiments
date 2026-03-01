@@ -1,0 +1,164 @@
+{
+  "Metadata": {
+    "title": "YAPU Solutions",
+    "description": "Outils numeriques pour la finance durable"
+  },
+  "Navigation": {
+    "home": "Accueil",
+    "investorServices": "Services aux Investisseurs",
+    "dataInsights": "Analyses de Donnees",
+    "digitalTools": "Outils Numeriques",
+    "impact": "Impact",
+    "news": "Actualites",
+    "about": "A Propos",
+    "yupuApp": "YAPU App",
+    "switchLanguage": "Langue"
+  },
+  "NavigationSub": {
+    "investorServices_pathToResilience": "Chemin vers la Resilience",
+    "investorServices_impactMeasurement": "Mesure de l'Impact",
+    "investorServices_sdgs": "ODD",
+    "investorServices_useCases": "Cas d'Usage",
+    "dataInsights_creditRisk": "Evaluation du Risque de Credit",
+    "dataInsights_financialRisks": "Risques Financiers",
+    "dataInsights_resilienceFinance": "Finance de Resilience",
+    "dataInsights_performanceMonitoring": "Suivi des Performances",
+    "dataInsights_capacityBuilding": "Renforcement des Capacites",
+    "digitalTools_frontOffice": "Front Office",
+    "digitalTools_teamManagement": "Gestion d'Equipe",
+    "digitalTools_loanDecision": "Decision de Pret",
+    "digitalTools_systemIntegration": "Integration des Systemes",
+    "digitalTools_learningOrganization": "Organisation Apprenante",
+    "digitalTools_features": "Fonctionnalites",
+    "impact_digitalResilienceFinance": "Finance Numerique de Resilience",
+    "impact_scaleForResilience": "Echelle pour la Resilience",
+    "impact_impactReferences": "References d'Impact"
+  },
+  "Newsletter": {
+    "title": "Restez a jour",
+    "description": "Abonnez-vous a notre newsletter pour les dernieres mises a jour sur la finance durable et les outils numeriques.",
+    "firstNamePlaceholder": "Prénom",
+    "lastNamePlaceholder": "Nom de famille",
+    "emailPlaceholder": "Adresse e-mail",
+    "submitButton": "S'abonner!",
+    "successMessage": "Merci pour votre inscription!",
+    "errorMessage": "Une erreur est survenue. Veuillez reessayer.",
+    "loadingMessage": "Inscription en cours..."
+  },
+  "Footer": {
+    "tagline": "Outils Numeriques pour la Finance Durable",
+    "legalNotice": "Mentions Legales",
+    "privacyPolicy": "Politique de Confidentialite",
+    "copyright": "YAPU SOLUTIONS GMBH"
+  },
+  "CookieConsent": {
+    "message": "Nous utilisons des cookies pour ameliorer votre experience. Les cookies analytiques ne sont places qu'avec votre consentement.",
+    "privacyPolicy": "Politique de confidentialite",
+    "accept": "Accepter",
+    "decline": "Refuser"
+  },
+  "Homepage": {
+    "partnersTitle": "Nos partenaires de confiance",
+    "clientsTitle": "Nos clients",
+    "testimonialsTitle": "Voix des clients"
+  },
+  "Common": {
+    "learnMore": "En Savoir Plus",
+    "contactUs": "Contactez-nous",
+    "readMore": "Lire la Suite",
+    "backToHome": "Retour a l'Accueil"
+  },
+  "Theme": {
+    "light": "Clair",
+    "dark": "Sombre",
+    "system": "Systeme"
+  },
+  "Placeholder": {
+    "title": "Page en Construction",
+    "description": "Cette page est en cours de construction. Revenez bientot."
+  },
+  "InvestorServices": {
+    "ourApproach": "Notre Approche",
+    "ourServices": "Nos Services",
+    "pathToResilience": "Chemin vers la Resilience",
+    "impactMeasurement": "Mesure de l'Impact",
+    "sdgsTitle": "Objectifs de Developpement Durable",
+    "useCasesTitle": "Cas d'Usage",
+    "greenFinanceRadar": "Radar de Finance Verte",
+    "environmental": "Environnemental",
+    "social": "Social"
+  },
+  "DataInsights": {
+    "categoriesTitle": "Categories d'Analyses",
+    "creditRisk": "Evaluation du Risque de Credit",
+    "financialRisks": "Risques Financiers Sociaux, Climatiques et Naturels",
+    "resilienceFinance": "Finance de Resilience",
+    "performanceMonitoring": "Suivi des Performances",
+    "capacityBuilding": "Renforcement des Capacites"
+  },
+  "DigitalTools": {
+    "frontOffice": "Front Office",
+    "teamManagement": "Gestion d'Equipe",
+    "loanDecision": "Decision de Pret",
+    "apiIntegration": "Integration API",
+    "learningOrganization": "Organisation Apprenante",
+    "features": "Fonctionnalites",
+    "testimonialTitle": "Ce que Disent Nos Utilisateurs"
+  },
+  "Impact": {
+    "digitalResilienceFinance": "Finance Numerique de Resilience",
+    "scaleForResilience": "Echelle pour la Resilience",
+    "impactReferences": "References d'Impact",
+    "partnersTitle": "Nos Partenaires"
+  },
+  "News": {
+    "heroTitle": "Actualites",
+    "heroSubtitle": "Dernieres actualites de YAPU Solutions",
+    "filterAll": "Tout",
+    "readMore": "Lire la suite",
+    "noArticles": "Aucun article trouve dans cette categorie."
+  },
+  "HomepageMeta": {
+    "title": "Outils numeriques pour la finance durable",
+    "description": "YAPU Solutions fournit des outils numeriques innovants pour les institutions financieres, les investisseurs et les organisations de developpement."
+  },
+  "InvestorServicesMeta": {
+    "title": "Services aux Investisseurs",
+    "description": "Outils de reporting et de mesure d'impact pour les portefeuilles de finance durable."
+  },
+  "DataInsightsMeta": {
+    "title": "Analyses de Donnees",
+    "description": "Evaluation du risque de credit, analyse des risques climatiques et suivi des performances."
+  },
+  "DigitalToolsMeta": {
+    "title": "Outils Numeriques",
+    "description": "Outils de transformation numerique pour le front office, la gestion d'equipe et les decisions de pret."
+  },
+  "ImpactMeta": {
+    "title": "Impact",
+    "description": "Initiatives de finance numerique de resilience promouvant l'inclusion financiere et la finance verte."
+  },
+  "NewsMeta": {
+    "title": "Actualites",
+    "description": "Dernieres mises a jour et articles de YAPU Solutions sur la finance durable."
+  },
+  "AboutMeta": {
+    "title": "A Propos",
+    "description": "Decouvrez YAPU Solutions, notre equipe, notre mission et notre engagement envers les ODD."
+  },
+  "About": {
+    "originTitle": "YAPU Derive de Yapuchiri",
+    "teamTitle": "Notre Equipe",
+    "missionTitle": "Notre Mission",
+    "sdgsTitle": "Nos ODD",
+    "contactTitle": "Contactez-nous",
+    "contactSubmit": "Envoyer le Message",
+    "contactFirstName": "Prenom",
+    "contactLastName": "Nom",
+    "contactEmail": "Email",
+    "contactCountry": "Pays",
+    "contactEmploymentStatus": "Statut Professionnel",
+    "contactLinkedIn": "Profil LinkedIn",
+    "contactConsent": "J'accepte la politique de confidentialite"
+  }
+}

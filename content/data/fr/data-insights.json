@@ -1,0 +1,104 @@
+{
+  "hero": {
+    "title": "Analyses de Donnees",
+    "subtitle": "Nous offrons des analyses de donnees basees sur les meilleures pratiques internationales pour la finance durable et le risque climatique.",
+    "ctaText": "En Savoir Plus",
+    "ctaHref": "/fr/data-insights"
+  },
+  "categories": [
+    {
+      "title": "Projections Financieres",
+      "description": "Previsions financieres pilotees par des algorithmes qui incorporent des variables de risque climatique et social dans les projections de portefeuilles de prets.",
+      "icon": "Calculator"
+    },
+    {
+      "title": "Decisions Basees sur des Algorithmes",
+      "description": "Modeles d'apprentissage automatique qui automatisent la notation du credit, la classification des risques et la segmentation du portefeuille a grande echelle.",
+      "icon": "Brain"
+    },
+    {
+      "title": "Risques Climatiques",
+      "description": "Evaluations des risques climatiques physiques et de transition cartographies sur l'exposition geographique des portefeuilles de prets et des emprunteurs agricoles.",
+      "icon": "CloudRain"
+    },
+    {
+      "title": "Impact Social",
+      "description": "Mesure des resultats sociaux incluant l'inclusion financiere, l'egalite des genres, l'amelioration des revenus et la resilience communautaire.",
+      "icon": "Heart"
+    },
+    {
+      "title": "Taxonomies",
+      "description": "Verification de l'alignement du portefeuille avec la taxonomie europeenne, le Climate Bonds Standard et les taxonomies nationales de finance verte.",
+      "icon": "BookOpen"
+    },
+    {
+      "title": "Performance du Personnel",
+      "description": "Analyses de la productivite des agents de credit, des facteurs de qualite du portefeuille et des lacunes de capacites pour des interventions de formation ciblees.",
+      "icon": "Users"
+    }
+  ],
+  "sections": {
+    "creditRisk": {
+      "title": "Evaluation du Risque de Credit",
+      "text": "Notre methodologie d'evaluation du risque de credit integre les indicateurs de credit traditionnels avec des scores de vulnerabilite climatique et des facteurs de risque social. En combinant l'historique financier, l'exposition climatique sectorielle et les indicateurs de resilience des emprunteurs, nous generons des notations de credit composites qui refletent plus precisement la probabilite de defaut reelle pour les portefeuilles agricoles et ruraux.",
+      "features": [
+        "Notations de credit ajustees au climat pour les emprunteurs agricoles",
+        "Modeles de risque sectoriels pour les institutions de microfinance",
+        "Analyse des flux de tresorerie integrant la variabilite saisonniere et climatique",
+        "Tests de resistance du portefeuille sous des scenarios de changement climatique",
+        "Indicateurs d'alerte precoce pour les segments de prets a risque"
+      ]
+    },
+    "financialRisks": {
+      "title": "Risques Financiers Sociaux, Climatiques et Naturels",
+      "text": "En partenariat avec le CIAT (Centre International d'Agriculture Tropicale), YAPU a developpe un cadre complet pour identifier et quantifier les risques financiers sociaux, climatiques et naturels dans les portefeuilles de microfinance. Ce cadre s'aligne sur les recommandations du TCFD et les orientations emergentes du TNFD sur les risques lies a la nature.",
+      "features": [
+        "Soutien a la divulgation des risques climatiques aligne sur le TCFD",
+        "Evaluation des risques financiers lies a la nature (cadre TNFD)",
+        "Indicateurs de risque social pour le genre, les revenus et l'impact communautaire",
+        "Cartographie geographique des risques climatiques physiques vers l'exposition du portefeuille",
+        "Analyse des risques de transition pour les secteurs dependants des combustibles fossiles"
+      ]
+    },
+    "resilienceFinance": {
+      "title": "Finance de Resilience",
+      "text": "La Finance de Resilience est la pratique qui consiste a orienter des capitaux vers des emprunteurs et des activites qui renforcent la capacite d'adaptation au changement climatique tout en generant des rendements financiers. Le service de donnees Finance de Resilience de YAPU verifie l'eligibilite du portefeuille selon les criteres taxonomiques verts et climatiques, produit des rapports d'impact de qualite investisseur et soutient la structuration d'obligations vertes et de prets lies a la durabilite.",
+      "features": [
+        "Verification de l'alignement avec la taxonomie verte (UE, normes nationales)",
+        "Evaluation de l'eligibilite au Climate Bonds Standard",
+        "Label credit vert pour les portefeuilles de prets eligibles",
+        "Production de rapports d'impact pour la divulgation aux investisseurs",
+        "Conception et suivi des KPIs pour les prets lies a la durabilite"
+      ]
+    },
+    "performanceMonitoring": {
+      "title": "Suivi des Performances",
+      "text": "Le suivi en temps reel des performances des agents de credit et du portefeuille permet aux gestionnaires d'identifier les problemes rapidement et d'intervenir avant qu'ils ne deviennent des problemes systemiques. Les tableaux de bord de suivi des performances de YAPU integrent les metriques de qualite des prets, les donnees d'activite de l'equipe et les indicateurs d'impact dans une vue de gestion unique accessible depuis n'importe quel appareil.",
+      "features": [
+        "Tableaux de bord de qualite du portefeuille de prets en temps reel",
+        "Suivi de la productivite et des activites des agents de credit",
+        "Suivi des indicateurs d'impact au niveau du portefeuille",
+        "Alertes automatisees pour les retards et les violations de clauses restrictives",
+        "Comparaison avec les donnees de performance des IMF comparables"
+      ]
+    },
+    "capacityBuilding": {
+      "title": "Renforcement des Capacites",
+      "text": "L'utilisation efficace des analyses de donnees necessite des capacites institutionnelles selon trois dimensions : comprendre quelles donnees collecter, la capacite technique a les analyser et la culture organisationnelle pour agir sur les resultats. Le service de renforcement des capacites de YAPU aborde les trois dimensions a travers un programme structure.",
+      "pillars": [
+        {
+          "title": "Evaluation Institutionnelle",
+          "description": "Nous evaluons l'infrastructure de donnees actuelle de votre organisation, les competences de l'equipe et les pratiques de gestion pour identifier les lacunes et prioriser les investissements en capacites."
+        },
+        {
+          "title": "Conseil",
+          "description": "Nous fournissons un soutien consultatif continu pendant que votre equipe met en oeuvre de nouvelles pratiques de donnees, en examinant les resultats, en resolvant les problemes et en assurant l'alignement avec les exigences de reporting des investisseurs."
+        },
+        {
+          "title": "Formation",
+          "description": "Nous dispensons des programmes de formation pratiques pour les agents de credit, les analystes et les gestionnaires couvrant la collecte de donnees, l'interpretation des risques climatiques et les outils de reporting d'impact."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "hero": {
+    "title": "Data Insights",
+    "subtitle": "We offer data insights based on international best practices!"
+  },
+  "overview": {
+    "text": "We support you through our capacity services to draw the right conclusions out of your data insights."
+  },
+  "categories": [
+    {
+      "title": "Financial Projections",
+      "icon": "/images/icons/data-insights/financial-projection.svg"
+    },
+    {
+      "title": "Algorithm-based Decisions",
+      "icon": "/images/icons/data-insights/algorithm-based-decision.svg"
+    },
+    {
+      "title": "Climate Risks",
+      "icon": "/images/icons/data-insights/climate-risks.svg"
+    },
+    {
+      "title": "Social Impact",
+      "icon": "/images/icons/data-insights/social-impact.svg"
+    },
+    {
+      "title": "Taxonomies",
+      "icon": "/images/icons/data-insights/taxonomies.svg"
+    },
+    {
+      "title": "Staff Performance",
+      "icon": "/images/icons/data-insights/staff-performance.svg"
+    }
+  ],
+  "sections": {
+    "creditRisk": {
+      "title": "Credit Risk Assessment",
+      "icon": "/images/icons/data-insights/white-risk-assessment.svg",
+      "text": "The data you gathered digitally is used to generate additional insights.",
+      "features": [
+        "Credit ratings and scorings",
+        "Sector and activity risks",
+        "Cashflow projection"
+      ],
+      "benefits": [
+        "Faster credit disbursement through automated decision support.",
+        "Less credit default based on a better view on risks."
+      ],
+      "image": "/images/data-insights/phone-data-insights.png"
+    },
+    "financialRisks": {
+      "title": "Social, Climate and nature-related financial risks",
+      "icon": "/images/icons/data-insights/climate-risks.svg",
+      "intro": "Have a clear view on all risks that can affect your investment.",
+      "text": "We offer you a clear view on existing climate risk by digitally integrating climate risk maps. Our partner for climate risk data is the renowned International Center for Tropical Agriculture (CIAT).",
+      "benefits": [
+        "A clear view on climate- and nature-related risk in any credit assessment.",
+        "These risks can be assessed for any sector, from agriculture to construction."
+      ],
+      "images": {
+        "laptop": "/images/data-insights/laptop-data-insights.png",
+        "phone": "/images/data-insights/phone-climate-risk.png"
+      }
+    },
+    "resilienceFinance": {
+      "title": "Resilience Finance",
+      "icon": "/images/icons/data-insights/tax-white.svg",
+      "intro": "Verify your investments according to established taxonomies",
+      "features": [
+        "Taxonomies define eligible investments for resilience finance.",
+        "The verification of investments is automatically included in the credit process covering also the correct installation of financed adaptation measures.",
+        "This way it is ensured that productivity and resiliency benefits are truly reached - for every investment."
+      ],
+      "benefits": [
+        "Identify your green or social loans, ensure real impact.",
+        "Prove your impact to investors without extra effort.",
+        "Comply with upcoming regulation."
+      ],
+      "callout": "Support verification with photos",
+      "image": "/images/data-insights/phone-middle-data-insights.png",
+      "example": {
+        "title": "Green microcredit verification",
+        "text": "Our methodology for green credit verification developed with UNEP assures the correct use of funds received for a green credit. Structured follow-up visits documented digitally exclude green washing."
+      }
+    },
+    "performanceMonitoring": {
+      "title": "Performance Monitoring",
+      "icon": "/images/icons/data-insights/staff-performance.svg",
+      "text": "Monitor where your team spends most time, its productivity and on which clients they focus.",
+      "dashboards": [
+        {
+          "title": "Number of loans assessed in period",
+          "image": "/images/data-insights/number-of-loans-assessed.jpg"
+        },
+        {
+          "title": "Time to fill in forms and most modified fields for crosschecks",
+          "image": "/images/data-insights/most-modified-fields.jpg"
+        },
+        {
+          "title": "Credit statuses",
+          "image": "/images/data-insights/credit-statuses.jpg"
+        }
+      ],
+      "benefits": [
+        "A detailed view on team performance.",
+        "A clear view on customer focus."
+      ]
+    },
+    "capacityBuilding": {
+      "title": "Capacity Building",
+      "intro": "We don't stop at providing digital tools and data insights - we also support you to create the capacities needed to make best use of them!",
+      "pillars": [
+        {
+          "title": "Institutional assessment",
+          "description": "Based on a proven methodology we assess your institutions capacities with regard to digital finance, Sustainable Finance, ESG impact finance, or strategic management. We assess gaps and potentials, map them for a joint review and provide you with suggestions for improvement."
+        },
+        {
+          "title": "Consultancy",
+          "description": "With our technical expertise and knowledge on organisational structures, we support you to adjust existing tools or calibrate ours for immediate use. We can adjust policies and procedures to make them more efficient and support you in improving your strategies with a clear view tangible outcomes."
+        },
+        {
+          "title": "Training",
+          "description": "Our trainings support any department of your institution in the swift adoption of our digital tools and data services. We adjust to your individual situation and provide your staff with clear, interactive material they can review any time. We also provide Training-of-trainers solutions."
+        }
+      ]
+    }
+  }
+}
