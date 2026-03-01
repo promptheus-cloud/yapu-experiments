@@ -1,28 +1,22 @@
-# Webstack — YAPU Solutions (yapu2)
+# Webstack — YAPU Experiments
 
-Faithful rebuild von yapu.com auf dem Promptheus-Stack, designed to be editable via Ember.
+Experimenteller Fork von yapu2. Gleicher Code, eigenes Repo, eigene Subdomain.
 
-**Original:** https://yapu.com/
-**Live:** https://yapu.promptheus.cloud
+**Original:** https://yapu.solutions/
+**Basis:** https://yapu.promptheus.cloud (yapu2)
+**Live:** https://yapu-experiments.promptheus.cloud
 
 ## Kontext
 
-**YAPU Solutions** ist ein Social-FinTech aus Berlin. Entwickelt digitale Tools fuer nachhaltige Finanzierung und Investor Reporting. Kunden: Entwicklungsbanken, Impact Investoren, Mikrofinanzinstitutionen.
-
-## Promptheus-Kontext
-
-Dieses Projekt ist Teil des Promptheus-Portfolios — einer Reihe von Website-Rebuilds, die zeigen, was der Promptheus-Stack mit Ember-Chatbot-Editing kann. Parallele Projekte: Bionexx, Nuru, Fenix International, FINCA.
+Kopie des yapu2-Rebuilds für Experimente. Änderungen hier beeinflussen nicht die Haupt-Seite yapu.promptheus.cloud.
 
 ## Tech-Stack
-
-Siehe Promptheus Root-CLAUDE.md (`C:\Users\hmk\promptheus\CLAUDE.md`) fuer Stack-Details und Konventionen.
 
 - **Framework:** Next.js 16 (App Router)
 - **Sprache:** TypeScript
 - **Styling:** Tailwind CSS v4 (OKLCH, `@theme inline {}` in globals.css)
 - **UI-Komponenten:** shadcn/ui
 - **i18n:** next-intl (EN/ES/FR), Middleware-basiertes Routing
-- **Theming:** next-themes (Light/Dark)
 
 ## Seiten
 
@@ -44,21 +38,20 @@ Alle Routen sind locale-prefixed: `/en/...`, `/es/...`, `/fr/...`
 |---|---|
 | **Server** | 187.77.66.133 (Hostinger) |
 | **SSH** | `ssh root@187.77.66.133` |
-| **App-Pfad** | `/home/yapu/yapu2/` |
-| **Prod Port** | 3003 (PM2: `yapu-prod`) |
-| **Dev Port** | 3008 (PM2: `yapu-dev`) |
-| **Reverse Proxy** | nginx (Prod → 3003, Preview → 3008) |
+| **App-Pfad** | `/home/yapu-experiments/` |
+| **Port** | 3006 (PM2: `yapu-experiments`) |
+| **Reverse Proxy** | nginx → 3006 |
 | **SSL** | Let's Encrypt (certbot, auto-renew) |
-| **Deploy Key** | `id_yapu2` auf Server, SSH-Host `github-yapu2` |
-| **Deploy-Script** | `server/deploy.sh` |
+| **GitHub** | promptheus-cloud/yapu-experiments |
 
 ### Deployment
 
 ```bash
-ssh root@187.77.66.133 "APP_DIR=/home/yapu/yapu2 /home/yapu/yapu2/server/deploy.sh"
+ssh root@187.77.66.133 "cd /home/yapu-experiments && git pull origin master && npm run build && pm2 restart yapu-experiments"
 ```
 
-Options: `--prod` (nur Produktion), `--dev` (nur Preview), `--all` (default, beides).
+Vor dem Push: `gh auth switch --user promptheus-cloud && gh auth setup-git`
+Nach dem Push: `gh auth switch --user Marlin-hi`
 
 ## Content-Architektur
 
@@ -69,7 +62,6 @@ Inhalt lebt in JSON-Dateien unter `content/data/`, nicht in Markdown oder CMS.
 
 ## Constraints
 
-- Faithful rebuild von yapu.com — gleiche Seiten, gleiche Struktur, gleiche Inhalte
+- Faithful rebuild von yapu.solutions
 - Muss im Promptheus-Stack bleiben
 - Kein Zugriff auf WordPress-Backend — alles von der Live-Site extrahiert
-- Ember ersetzt CMS — kein Admin-Panel
