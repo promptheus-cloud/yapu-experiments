@@ -8,7 +8,7 @@ interface ContentSectionProps {
 
 export function ContentSection({title, text, features, alternate = false, id}: ContentSectionProps) {
   return (
-    <section id={id} className={`py-16 px-6 ${alternate ? 'bg-gray-50' : 'bg-background'}`}>
+    <section id={id} className={`py-16 px-6 ${alternate ? 'bg-section-alt' : 'bg-background'}`}>
       <div className="max-w-4xl mx-auto">
         <h2 className="text-2xl font-bold mb-6 text-foreground">{title}</h2>
         <p className="text-muted-foreground leading-relaxed mb-6">{text}</p>

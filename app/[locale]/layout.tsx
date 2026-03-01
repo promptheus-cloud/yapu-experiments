@@ -84,7 +84,7 @@ export default async function LocaleLayout({
       <body>
         <GoogleAnalytics />
         <NextIntlClientProvider messages={messages}>
-          <ThemeProvider attribute="class" defaultTheme="light" forcedTheme="light" disableTransitionOnChange>
+          <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
             <Navigation navSections={navSections} />
             <main className="min-h-screen">
               {children}

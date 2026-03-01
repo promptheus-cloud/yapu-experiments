@@ -66,8 +66,8 @@ export function NewsFilter({
             onClick={() => handleCategoryChange(cat)}
             className={`px-5 py-2 text-sm font-semibold transition-colors border-b-2 ${
               activeCategory === cat
-                ? 'text-brand border-brand'
-                : 'text-muted-foreground border-transparent hover:text-brand hover:border-brand'
+                ? 'text-brand dark:text-primary border-brand dark:border-primary'
+                : 'text-muted-foreground border-transparent hover:text-brand dark:hover:text-primary hover:border-brand dark:hover:border-primary'
             }`}
           >
             {cat === 'all' ? allLabel : cat}
@@ -85,7 +85,7 @@ export function NewsFilter({
             return (
               <article
                 key={article.slug}
-                className="flex flex-col md:flex-row bg-white shadow-[0_2px_8px_rgba(0,0,0,0.12)] overflow-hidden"
+                className="flex flex-col md:flex-row bg-card glass-card overflow-hidden"
               >
                 {/* Image */}
                 {article.image && (
@@ -113,7 +113,7 @@ export function NewsFilter({
                   <p className="text-sm text-muted-foreground mb-2">
                     {formatDate(article.date)}
                   </p>
-                  <h3 className="text-xl md:text-2xl font-bold text-[rgb(30,90,100)] mb-3 leading-snug">
+                  <h3 className="text-xl md:text-2xl font-bold text-brand dark:text-primary mb-3 leading-snug">
                     {article.title}
                   </h3>
                   <p className="text-sm text-muted-foreground mb-4">
@@ -149,7 +149,7 @@ export function NewsFilter({
               className={`w-10 h-10 rounded-full text-sm font-semibold transition-colors ${
                 page === i
                   ? 'bg-brand text-white'
-                  : 'bg-white text-foreground border border-border hover:bg-brand hover:text-white'
+                  : 'bg-card text-foreground border border-border hover:bg-brand hover:text-white'
               }`}
             >
               {i + 1}
@@ -158,7 +158,7 @@ export function NewsFilter({
           {page < totalPages - 1 && (
             <button
               onClick={() => setPage((p) => p + 1)}
-              className="px-5 py-2 rounded-full bg-white text-foreground font-semibold border border-border hover:bg-brand hover:text-white transition-colors ml-2"
+              className="px-5 py-2 rounded-full bg-card text-foreground font-semibold border border-border hover:bg-brand hover:text-white transition-colors ml-2"
             >
               Next
             </button>

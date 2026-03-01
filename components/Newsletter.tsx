@@ -36,9 +36,9 @@ export function Newsletter() {
   }
 
   return (
-    <section id="contact" className="py-16 px-6 bg-gray-100">
+    <section id="contact" className="py-16 px-6 bg-section-alt">
       <div className="max-w-xl mx-auto text-center">
-        <div className="overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm">
+        <div className="overflow-hidden rounded-xl glass-card">
           <div className="h-1.5 bg-cta" />
           <div className="p-8 md:p-10">
             <h2 className="text-2xl font-bold mb-2 text-foreground">{t('title')}</h2>
@@ -54,7 +54,7 @@ export function Newsletter() {
                     placeholder={t('firstNamePlaceholder')}
                     value={firstName}
                     onChange={(e) => setFirstName(e.target.value)}
-                    className="w-full rounded-lg border border-gray-200 bg-white px-4 py-3 text-sm outline-none focus:border-brand focus:ring-1 focus:ring-brand"
+                    className="w-full rounded-lg border border-border bg-background dark:bg-input/30 px-4 py-3 text-sm outline-none focus:border-brand focus:ring-1 focus:ring-brand"
                     required
                   />
                   <input
@@ -62,7 +62,7 @@ export function Newsletter() {
                     placeholder={t('lastNamePlaceholder')}
                     value={lastName}
                     onChange={(e) => setLastName(e.target.value)}
-                    className="w-full rounded-lg border border-gray-200 bg-white px-4 py-3 text-sm outline-none focus:border-brand focus:ring-1 focus:ring-brand"
+                    className="w-full rounded-lg border border-border bg-background dark:bg-input/30 px-4 py-3 text-sm outline-none focus:border-brand focus:ring-1 focus:ring-brand"
                     required
                   />
                 </div>
@@ -71,7 +71,7 @@ export function Newsletter() {
                   placeholder={t('emailPlaceholder')}
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="w-full mb-4 rounded-lg border border-gray-200 bg-white px-4 py-3 text-sm outline-none focus:border-brand focus:ring-1 focus:ring-brand"
+                  className="w-full mb-4 rounded-lg border border-border bg-background dark:bg-input/30 px-4 py-3 text-sm outline-none focus:border-brand focus:ring-1 focus:ring-brand"
                   required
                 />
                 <button

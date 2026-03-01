@@ -12,7 +12,7 @@ interface ClientCarouselProps {
 
 export function ClientCarousel({ title, logos }: ClientCarouselProps) {
   return (
-    <section className="py-16 px-6 bg-white" aria-label={title}>
+    <section className="py-16 px-6 bg-background" aria-label={title}>
       <div className="max-w-6xl mx-auto">
         <h2 className="text-sm font-bold uppercase tracking-[0.2em] text-muted-foreground text-center mb-12">
           {title}
@@ -25,7 +25,7 @@ export function ClientCarousel({ title, logos }: ClientCarouselProps) {
               alt={logo.alt}
               width={100}
               height={32}
-              className="object-contain h-8 w-auto grayscale hover:grayscale-0 transition-all duration-300"
+              className="object-contain h-8 w-auto grayscale hover:grayscale-0 transition-all duration-300 dark:brightness-0 dark:invert dark:hover:brightness-100 dark:hover:invert-0"
             />
           ))}
         </div>

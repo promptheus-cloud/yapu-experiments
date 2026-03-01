@@ -100,9 +100,9 @@ export default async function AboutPage({
 
       {/* Origin Story */}
       <ScrollReveal animation="fade-up">
-        <section className="py-16 md:py-20 px-6 bg-white">
+        <section className="py-16 md:py-20 px-6 bg-background">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-2xl md:text-3xl font-black text-brand uppercase tracking-wide mb-8">
+            <h2 className="text-2xl md:text-3xl font-black text-brand dark:text-primary uppercase tracking-wide mb-8">
               {content.origin.title}
             </h2>
             <div className="space-y-5">
@@ -117,10 +117,10 @@ export default async function AboutPage({
       </ScrollReveal>
 
       {/* Team Grid */}
-      <section className="py-16 md:py-20 px-6 bg-[#f8f8f8]">
+      <section className="py-16 md:py-20 px-6 bg-section-alt">
         <div className="max-w-6xl mx-auto">
           <ScrollReveal animation="fade-up">
-            <h2 className="text-2xl md:text-3xl font-black text-brand uppercase tracking-wide text-center mb-12">
+            <h2 className="text-2xl md:text-3xl font-black text-brand dark:text-primary uppercase tracking-wide text-center mb-12">
               {t('teamTitle')}
             </h2>
           </ScrollReveal>
@@ -128,7 +128,7 @@ export default async function AboutPage({
             {content.team.map((member, index) => (
               <ScrollReveal key={member.name} animation="fade-up" delay={index * 80}>
                 <div className="text-center">
-                  <div className="w-full aspect-square bg-gray-100 mb-4 overflow-hidden">
+                  <div className="w-full aspect-square bg-section-alt mb-4 overflow-hidden">
                     {member.photo ? (
                       <Image
                         src={member.photo}
@@ -196,9 +196,9 @@ export default async function AboutPage({
 
       {/* SDGs */}
       <ScrollReveal animation="fade-up">
-        <section className="py-16 md:py-20 px-6 bg-[#f8f8f8]">
+        <section className="py-16 md:py-20 px-6 bg-section-alt">
           <div className="max-w-5xl mx-auto">
-            <h2 className="text-xl md:text-2xl font-black text-brand uppercase tracking-wide text-center mb-10">
+            <h2 className="text-xl md:text-2xl font-black text-brand dark:text-primary uppercase tracking-wide text-center mb-10">
               {t('sdgsTitle')}
             </h2>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-5">
@@ -219,9 +219,9 @@ export default async function AboutPage({
 
       {/* Contact / Partners */}
       <ScrollReveal animation="fade-up">
-        <section className="py-16 md:py-20 px-6 bg-white">
+        <section className="py-16 md:py-20 px-6 bg-background">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-2xl md:text-3xl font-black text-brand uppercase tracking-wide mb-10">
+            <h2 className="text-2xl md:text-3xl font-black text-brand dark:text-primary uppercase tracking-wide mb-10">
               {t('contactTitle')}
             </h2>
 

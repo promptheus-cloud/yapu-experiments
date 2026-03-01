@@ -22,6 +22,7 @@ import {
   SheetTitle,
 } from '@/components/ui/sheet';
 import {cn} from '@/lib/utils';
+import {ThemeToggle} from '@/components/ThemeToggle';
 
 /* IDs of the 4 main nav sections that get boxed teal styling */
 const BOXED_SECTIONS = new Set(['investor-services', 'data-insights', 'digital-tools', 'impact']);
@@ -74,7 +75,7 @@ export function Navigation({navSections}: NavigationProps) {
 
   return (
     <nav className={cn(
-      'sticky top-0 z-50 bg-brand transition-shadow',
+      'sticky top-0 z-50 glass-nav transition-shadow',
       scrolled && 'shadow-lg'
     )}>
       <div className="w-full flex items-center justify-between px-4 py-4 lg:px-6 lg:py-3">
@@ -115,13 +116,13 @@ export function Navigation({navSections}: NavigationProps) {
                         {t(section.labelKey as Parameters<typeof t>[0])}
                       </NavigationMenuTrigger>
                       <NavigationMenuContent>
-                        <ul className="grid gap-1 p-3 w-[220px] bg-white rounded-md shadow-lg">
+                        <ul className="grid gap-1 p-3 w-[220px] glass-card rounded-md">
                           {section.subItems.map((subItem) => (
                             <li key={subItem.labelKey}>
                               <NavigationMenuLink asChild>
                                 <Link
                                   href={subItem.href}
-                                  className="block px-3 py-2 rounded text-sm text-gray-700 hover:bg-gray-50 transition-colors"
+                                  className="block px-3 py-2 rounded text-sm text-foreground/80 hover:bg-muted transition-colors"
                                 >
                                   {tSub(subItem.labelKey as Parameters<typeof tSub>[0])}
                                 </Link>
@@ -173,12 +174,12 @@ export function Navigation({navSections}: NavigationProps) {
               <ChevronDown className="w-3 h-3" />
             </button>
             {langOpen && (
-              <div className="absolute right-0 mt-1 bg-white text-gray-900 rounded shadow-lg min-w-[120px] z-10">
+              <div className="absolute right-0 mt-1 glass-card text-card-foreground rounded min-w-[120px] z-10">
                 {routing.locales.map((loc) => (
                   <button
                     key={loc}
                     onClick={() => switchLocale(loc)}
-                    className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-100 transition-colors ${loc === locale ? 'font-semibold text-brand' : ''}`}
+                    className={`w-full text-left px-4 py-2 text-sm hover:bg-muted transition-colors ${loc === locale ? 'font-semibold text-brand dark:text-primary' : ''}`}
                   >
                     {loc.toUpperCase()}
                   </button>
@@ -186,6 +187,9 @@ export function Navigation({navSections}: NavigationProps) {
               </div>
             )}
           </div>
+
+          {/* Theme toggle — desktop */}
+          <ThemeToggle className="hidden lg:block" />
 
           {/* Mobile hamburger */}
           <Sheet open={mobileOpen} onOpenChange={setMobileOpen}>
@@ -268,6 +272,11 @@ export function Navigation({navSections}: NavigationProps) {
                   >
                     {t('yupuApp')}
                   </a>
+                </div>
+
+                {/* Theme toggle — mobile */}
+                <div className="mt-3 pt-3 border-t border-border">
+                  <ThemeToggle />
                 </div>
 
                 {/* Language switcher */}

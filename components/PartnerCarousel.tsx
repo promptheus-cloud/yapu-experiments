@@ -12,7 +12,7 @@ interface PartnerCarouselProps {
 
 export function PartnerCarousel({ title, logos }: PartnerCarouselProps) {
   return (
-    <section className="py-16 px-6 bg-white" aria-label={title}>
+    <section className="py-16 px-6 bg-background" aria-label={title}>
       <div className="max-w-6xl mx-auto">
         <h2 className="text-sm font-bold uppercase tracking-[0.2em] text-muted-foreground text-center mb-12">
           {title}
@@ -25,7 +25,7 @@ export function PartnerCarousel({ title, logos }: PartnerCarouselProps) {
               alt={logo.alt}
               width={140}
               height={48}
-              className="object-contain h-12 w-auto grayscale hover:grayscale-0 transition-all duration-300"
+              className="object-contain h-12 w-auto grayscale hover:grayscale-0 transition-all duration-300 dark:brightness-0 dark:invert dark:hover:brightness-100 dark:hover:invert-0"
             />
           ))}
         </div>

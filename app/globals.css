@@ -10,6 +10,10 @@
   --color-cta: var(--yapu-orange);
   --color-gold: var(--yapu-gold);
 
+  /* Section alternation tokens */
+  --color-section-alt: var(--section-alt);
+  --color-section-alt-foreground: var(--section-alt-foreground);
+
   /* shadcn/ui semantic tokens */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -101,6 +105,8 @@
   --sidebar-accent-foreground: oklch(0.145 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(43.38% 0.0624 210.55);
+  --section-alt: oklch(0.97 0 0);
+  --section-alt-foreground: oklch(0.4 0 0);
 }
 
 .dark {
@@ -135,6 +141,8 @@
   --sidebar-accent-foreground: oklch(0.95 0 0);
   --sidebar-border: oklch(0.3 0.02 210);
   --sidebar-ring: oklch(71.01% 0.1000 194.34);
+  --section-alt: oklch(0.17 0.015 210);
+  --section-alt-foreground: oklch(0.7 0 0);
 }
 
 /* --- Service Sections: Impact (dark teal gradient) --- */
@@ -167,8 +175,54 @@
   }
 }
 
-/* Hover transitions */
+/* Dark mode body gradient for glassmorphism depth */
+:is(.dark) body {
+  background: linear-gradient(
+    180deg,
+    oklch(0.145 0.02 210) 0%,
+    oklch(0.12 0.025 220) 50%,
+    oklch(0.145 0.02 210) 100%
+  );
+  background-attachment: fixed;
+}
+
+/* Hover transitions + Glassmorphism */
 @layer utilities {
+  .glass {
+    background: oklch(1 0 0 / 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid oklch(1 0 0 / 0.2);
+  }
+  :is(.dark *).glass {
+    background: oklch(0.18 0.02 210 / 0.6);
+    border: 1px solid oklch(1 0 0 / 0.1);
+  }
+
+  .glass-card {
+    background: oklch(1 0 0 / 0.6);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid oklch(1 0 0 / 0.25);
+    box-shadow: 0 8px 32px oklch(0 0 0 / 0.08);
+  }
+  :is(.dark *).glass-card {
+    background: oklch(0.18 0.02 210 / 0.5);
+    border: 1px solid oklch(1 0 0 / 0.08);
+    box-shadow: 0 8px 32px oklch(0 0 0 / 0.3);
+  }
+
+  .glass-nav {
+    background: oklch(0.35 0.06 210 / 0.85);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid oklch(1 0 0 / 0.1);
+  }
+  :is(.dark *).glass-nav {
+    background: oklch(0.14 0.02 210 / 0.85);
+    border-bottom: 1px solid oklch(1 0 0 / 0.08);
+  }
+
   .hover-lift {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }

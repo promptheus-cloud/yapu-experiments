@@ -28,25 +28,25 @@ type SectionStyle = {
 
 const sectionConfig: Record<string, SectionStyle> = {
   'investor-services': {
-    sectionClass: 'bg-gray-100',
-    titleClass: 'text-brand',
-    bulletClass: 'text-gray-700',
+    sectionClass: 'bg-section-alt',
+    titleClass: 'text-brand dark:text-primary',
+    bulletClass: 'text-muted-foreground',
     linkClass: 'text-cta',
-    borderClass: 'border-l-[3px] border-brand',
+    borderClass: 'border-l-[3px] border-brand dark:border-primary',
   },
   'data-insights': {
-    sectionClass: 'bg-white',
-    titleClass: 'text-brand',
-    bulletClass: 'text-gray-700',
+    sectionClass: 'bg-background',
+    titleClass: 'text-brand dark:text-primary',
+    bulletClass: 'text-muted-foreground',
     linkClass: 'text-cta',
     borderClass: 'border-l-[3px] border-accent',
   },
   'digital-tools': {
-    sectionClass: 'bg-gray-100',
-    titleClass: 'text-brand',
-    bulletClass: 'text-gray-700',
+    sectionClass: 'bg-section-alt',
+    titleClass: 'text-brand dark:text-primary',
+    bulletClass: 'text-muted-foreground',
     linkClass: 'text-cta',
-    borderClass: 'border-l-[3px] border-brand',
+    borderClass: 'border-l-[3px] border-brand dark:border-primary',
   },
   impact: {
     sectionClass: 'service-section-impact relative overflow-hidden',
@@ -58,11 +58,11 @@ const sectionConfig: Record<string, SectionStyle> = {
 };
 
 const defaultStyle: SectionStyle = {
-  sectionClass: 'bg-gray-50',
-  titleClass: 'text-brand',
-  bulletClass: 'text-gray-700',
+  sectionClass: 'bg-section-alt',
+  titleClass: 'text-brand dark:text-primary',
+  bulletClass: 'text-muted-foreground',
   linkClass: 'text-cta',
-  borderClass: 'border-l-[3px] border-brand',
+  borderClass: 'border-l-[3px] border-brand dark:border-primary',
 };
 
 export function ServiceModules({ modules }: ServiceModulesProps) {

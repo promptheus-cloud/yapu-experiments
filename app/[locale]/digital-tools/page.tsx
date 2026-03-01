@@ -140,7 +140,7 @@ export default async function DigitalToolsPage({
 
       {/* Section 1: Your Digital Front Office -- White background, 3 phones with arrows */}
       <ScrollReveal animation="fade-up">
-        <section id="front-office" className="py-16 px-6 bg-white">
+        <section id="front-office" className="py-16 px-6 bg-background">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-brand uppercase tracking-wide text-center mb-3">
               {sections.frontOffice.title}
@@ -172,9 +172,7 @@ export default async function DigitalToolsPage({
 
       {/* Section 2: Your Digital Team Management -- TEAL background, white text */}
       <ScrollReveal animation="fade-left">
-        <section id="team-management" className="py-16 px-6" style={{
-          backgroundColor: 'rgb(69, 181, 180)',
-        }}>
+        <section id="team-management" className="py-16 px-6 bg-accent">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-white uppercase tracking-wide text-center mb-3">
               {sections.teamManagement.title}
@@ -208,7 +206,7 @@ export default async function DigitalToolsPage({
 
       {/* Section 3: Your Digital Loan Decision -- White bg, image + bullets below */}
       <ScrollReveal animation="fade-right">
-        <section id="loan-decision" className="py-16 px-6 bg-white">
+        <section id="loan-decision" className="py-16 px-6 bg-background">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-brand uppercase tracking-wide text-center mb-3">
               {sections.loanDecision.title}
@@ -278,7 +276,7 @@ export default async function DigitalToolsPage({
 
       {/* Section 5: Your Learning Organization -- White bg, text left, dashboard right */}
       <ScrollReveal animation="fade-right">
-        <section id="learning-organization" className="py-16 px-6 bg-white">
+        <section id="learning-organization" className="py-16 px-6 bg-background">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-brand uppercase tracking-wide text-center mb-3">
               {sections.learningOrganization.title}
@@ -311,7 +309,7 @@ export default async function DigitalToolsPage({
       </ScrollReveal>
 
       {/* Features Grid -- original PNG icons, no card backgrounds */}
-      <section className="py-16 px-6 bg-white">
+      <section className="py-16 px-6 bg-background">
         <div className="max-w-6xl mx-auto">
           <ScrollReveal animation="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold mb-12 text-brand text-center uppercase tracking-wide">{t('features')}</h2>

@@ -102,7 +102,7 @@ export default async function ImpactPage({
       </section>
 
       {/* Digital Resilience Finance */}
-      <section className="py-16 md:py-20 px-6 bg-white" id="digital-resilience-finance">
+      <section className="py-16 md:py-20 px-6 bg-background" id="digital-resilience-finance">
         <div className="max-w-6xl mx-auto">
           <ScrollReveal animation="fade-up">
             <h2 className="text-2xl md:text-3xl font-black text-foreground uppercase tracking-wide mb-12 text-center">
@@ -135,7 +135,7 @@ export default async function ImpactPage({
       </section>
 
       {/* Scale for Resilience */}
-      <section className="py-16 md:py-20 px-6 bg-gray-50" id="scale-for-resilience">
+      <section className="py-16 md:py-20 px-6 bg-section-alt" id="scale-for-resilience">
         <div className="max-w-6xl mx-auto">
           <ScrollReveal animation="fade-up">
             <h2 className="text-2xl md:text-3xl font-black text-foreground uppercase tracking-[0.15em] mb-6 text-center">
@@ -192,7 +192,7 @@ export default async function ImpactPage({
                 </h3>
                 <div className="space-y-4">
                   {content.scaleForResilience.partners.map((partner) => (
-                    <div key={partner.name} className="bg-white rounded-lg p-4">
+                    <div key={partner.name} className="bg-card rounded-lg p-4">
                       <Image
                         src={partner.logo}
                         alt={partner.name}
@@ -210,7 +210,7 @@ export default async function ImpactPage({
       </section>
 
       {/* Impact References */}
-      <section className="py-16 md:py-20 px-6 bg-white" id="impact-references">
+      <section className="py-16 md:py-20 px-6 bg-background" id="impact-references">
         <div className="max-w-6xl mx-auto">
           <ScrollReveal animation="fade-up">
             <h2 className="text-2xl md:text-3xl font-black text-foreground uppercase tracking-[0.15em] mb-12 text-center">
@@ -252,11 +252,11 @@ export default async function ImpactPage({
 
                     {/* Text column */}
                     <div
-                      className={`flex flex-col justify-center p-8 md:p-12 bg-white ${
+                      className={`flex flex-col justify-center p-8 md:p-12 bg-card ${
                         isPictureLeft ? 'md:order-2' : 'md:order-1'
                       }`}
                     >
-                      <h3 className="text-xl md:text-2xl font-black text-brand uppercase tracking-wide mb-1">
+                      <h3 className="text-xl md:text-2xl font-black text-brand dark:text-primary uppercase tracking-wide mb-1">
                         {ref.title}
                       </h3>
                       <p className="text-sm text-muted-foreground uppercase tracking-wide mb-4 font-medium">

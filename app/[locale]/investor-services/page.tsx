@@ -111,12 +111,12 @@ export default async function InvestorServicesPage({
 
       {/* Our Approach */}
       <ScrollReveal animation="fade-up">
-        <section className="py-16 px-6" style={{backgroundColor: '#f8f8f8'}}>
+        <section className="py-16 px-6 bg-section-alt">
           <div className="max-w-[800px] mx-auto text-center">
-            <h2 className="font-heading text-[2.5em] font-bold mb-6 uppercase" style={{color: '#1E5A64'}}>
+            <h2 className="font-heading text-[2.5em] font-bold mb-6 uppercase text-brand dark:text-primary">
               {t('ourApproach')}
             </h2>
-            <p className="text-base leading-relaxed font-medium text-black">
+            <p className="text-base leading-relaxed font-medium text-foreground">
               {content.approach.text}
             </p>
           </div>
@@ -124,10 +124,10 @@ export default async function InvestorServicesPage({
       </ScrollReveal>
 
       {/* Our Services -- 3-column grid with illustration icons */}
-      <section className="py-16 px-6" style={{backgroundColor: '#f8f8f8'}}>
+      <section className="py-16 px-6 bg-section-alt">
         <div className="max-w-6xl mx-auto">
           <ScrollReveal animation="fade-up">
-            <h2 className="font-heading text-[2.5em] font-bold mb-10 text-center uppercase" style={{color: '#1E5A64'}}>
+            <h2 className="font-heading text-[2.5em] font-bold mb-10 text-center uppercase text-brand dark:text-primary">
               {t('ourServices')}
             </h2>
           </ScrollReveal>
@@ -144,10 +144,10 @@ export default async function InvestorServicesPage({
                       className="object-contain"
                     />
                   </div>
-                  <h3 className="font-heading text-[1.5em] font-bold mb-2" style={{color: '#1E5A64'}}>
+                  <h3 className="font-heading text-[1.5em] font-bold mb-2 text-brand dark:text-primary">
                     {service.title}
                   </h3>
-                  <p className="text-sm text-gray-600 leading-relaxed">
+                  <p className="text-sm text-muted-foreground leading-relaxed">
                     {service.description}
                   </p>
                 </div>
@@ -158,10 +158,10 @@ export default async function InvestorServicesPage({
       </section>
 
       {/* Path to Resilience -- overview image + 3 stage illustrations */}
-      <section className="py-16 px-6 bg-white">
+      <section className="py-16 px-6 bg-background">
         <div className="max-w-6xl mx-auto">
           <ScrollReveal animation="fade-up">
-            <h2 className="font-heading text-[2.5em] font-bold mb-6 text-center uppercase" style={{color: '#1E5A64'}}>
+            <h2 className="font-heading text-[2.5em] font-bold mb-6 text-center uppercase text-brand dark:text-primary">
               {t('pathToResilience')}
             </h2>
           </ScrollReveal>
@@ -191,10 +191,10 @@ export default async function InvestorServicesPage({
                       className="object-contain rounded-lg"
                     />
                   </div>
-                  <h3 className="font-heading text-xl font-bold mb-2" style={{color: '#1E5A64'}}>
+                  <h3 className="font-heading text-xl font-bold mb-2 text-brand dark:text-primary">
                     {stage.title}
                   </h3>
-                  <p className="text-sm text-gray-600 leading-relaxed px-2">
+                  <p className="text-sm text-muted-foreground leading-relaxed px-2">
                     {stage.description}
                   </p>
                 </div>
@@ -206,9 +206,9 @@ export default async function InvestorServicesPage({
 
       {/* Impact Measurement -- circular percentage graphics */}
       <ScrollReveal animation="fade-up">
-        <section className="py-16 px-6" style={{backgroundColor: '#f8f8f8'}}>
+        <section className="py-16 px-6 bg-section-alt">
           <div className="max-w-5xl mx-auto">
-            <h2 className="font-heading text-[2.5em] font-bold mb-10 text-center uppercase" style={{color: '#1E5A64'}}>
+            <h2 className="font-heading text-[2.5em] font-bold mb-10 text-center uppercase text-brand dark:text-primary">
               {t('impactMeasurement')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
@@ -223,10 +223,10 @@ export default async function InvestorServicesPage({
                     className="object-contain"
                   />
                 </div>
-                <h3 className="text-lg font-bold uppercase tracking-wide mb-2" style={{color: '#45B5B4'}}>
+                <h3 className="text-lg font-bold uppercase tracking-wide mb-2 text-accent">
                   {t('environmental')}
                 </h3>
-                <p className="text-sm text-gray-600 leading-relaxed max-w-sm mx-auto">
+                <p className="text-sm text-muted-foreground leading-relaxed max-w-sm mx-auto">
                   {content.impactMeasurement.environmental.description}
                 </p>
               </div>
@@ -241,10 +241,10 @@ export default async function InvestorServicesPage({
                     className="object-contain"
                   />
                 </div>
-                <h3 className="text-lg font-bold uppercase tracking-wide mb-2" style={{color: '#D5BA00'}}>
+                <h3 className="text-lg font-bold uppercase tracking-wide mb-2 text-gold">
                   {t('social')}
                 </h3>
-                <p className="text-sm text-gray-600 leading-relaxed max-w-sm mx-auto">
+                <p className="text-sm text-muted-foreground leading-relaxed max-w-sm mx-auto">
                   {content.impactMeasurement.social.description}
                 </p>
               </div>
@@ -255,12 +255,12 @@ export default async function InvestorServicesPage({
 
       {/* SDGs */}
       <ScrollReveal animation="fade-up">
-        <section className="py-16 px-6 bg-white">
+        <section className="py-16 px-6 bg-background">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="font-heading text-[2.5em] font-bold mb-6 uppercase" style={{color: '#1E5A64'}}>
+            <h2 className="font-heading text-[2.5em] font-bold mb-6 uppercase text-brand dark:text-primary">
               {t('sdgsTitle')} (SDGs)
             </h2>
-            <p className="text-base text-gray-600 leading-relaxed mb-8 font-medium">
+            <p className="text-base text-muted-foreground leading-relaxed mb-8 font-medium">
               {content.sdgDescription}
             </p>
             <div className="flex flex-wrap justify-center gap-3">
@@ -281,10 +281,10 @@ export default async function InvestorServicesPage({
       </ScrollReveal>
 
       {/* Use Cases -- alternating layout with percentage circles */}
-      <section className="py-16 px-6" style={{backgroundColor: '#f8f8f8'}}>
+      <section className="py-16 px-6 bg-section-alt">
         <div className="max-w-6xl mx-auto">
           <ScrollReveal animation="fade-up">
-            <h2 className="font-heading text-[2.5em] font-bold mb-10 text-center uppercase" style={{color: '#1E5A64'}}>
+            <h2 className="font-heading text-[2.5em] font-bold mb-10 text-center uppercase text-brand dark:text-primary">
               {t('useCasesTitle')}
             </h2>
           </ScrollReveal>
@@ -293,13 +293,13 @@ export default async function InvestorServicesPage({
               const isReversed = index % 2 === 1;
               return (
                 <ScrollReveal key={useCase.title} animation="fade-up" delay={index * 100}>
-                  <div className={`flex flex-col ${isReversed ? 'md:flex-row-reverse' : 'md:flex-row'} gap-8 items-center bg-white rounded-xl p-8 shadow-sm`}>
+                  <div className={`flex flex-col ${isReversed ? 'md:flex-row-reverse' : 'md:flex-row'} gap-8 items-center glass-card rounded-xl p-8`}>
                     {/* Text content */}
                     <div className="flex-1">
-                      <h3 className="font-heading text-[1.75em] font-bold mb-4" style={{color: '#1E5A64'}}>
+                      <h3 className="font-heading text-[1.75em] font-bold mb-4 text-brand dark:text-primary">
                         {useCase.title}
                       </h3>
-                      <p className="text-sm text-gray-600 leading-relaxed mb-6">
+                      <p className="text-sm text-muted-foreground leading-relaxed mb-6">
                         {useCase.description}
                       </p>
                       {/* SDG badges */}
@@ -327,7 +327,7 @@ export default async function InvestorServicesPage({
                           height={120}
                           className="object-contain"
                         />
-                        <span className="text-xs font-bold uppercase tracking-wide block mt-1" style={{color: '#D5BA00'}}>
+                        <span className="text-xs font-bold uppercase tracking-wide block mt-1 text-gold">
                           {t('social')}
                         </span>
                       </div>
@@ -339,7 +339,7 @@ export default async function InvestorServicesPage({
                           height={120}
                           className="object-contain"
                         />
-                        <span className="text-xs font-bold uppercase tracking-wide block mt-1" style={{color: '#45B5B4'}}>
+                        <span className="text-xs font-bold uppercase tracking-wide block mt-1 text-accent">
                           {t('environmental')}
                         </span>
                       </div>
@@ -354,7 +354,7 @@ export default async function InvestorServicesPage({
 
       {/* Green Finance Radar CTA */}
       <ScrollReveal animation="fade-up">
-        <section className="py-16 px-6" style={{backgroundColor: '#45B5B4'}}>
+        <section className="py-16 px-6 bg-accent">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="font-heading text-[2.5em] font-bold mb-4 text-white uppercase">
               {content.greenFinanceRadar.title}
@@ -364,8 +364,7 @@ export default async function InvestorServicesPage({
             </p>
             <a
               href={content.greenFinanceRadar.ctaHref}
-              className="bg-white px-8 py-3 rounded-full font-semibold hover:opacity-90 transition-opacity inline-block"
-              style={{color: '#45B5B4'}}
+              className="bg-white px-8 py-3 rounded-full font-semibold hover:opacity-90 transition-opacity inline-block text-accent"
             >
               {content.greenFinanceRadar.ctaText}
             </a>
