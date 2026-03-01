@@ -7,6 +7,7 @@ import {ThemeProvider} from '@/components/ThemeProvider';
 import {Navigation, type NavSection} from '@/components/Navigation';
 import {Footer} from '@/components/Footer';
 import {BackgroundOrbs} from '@/components/BackgroundOrbs';
+import {RedThread} from '@/components/RedThread';
 import {GoogleAnalytics} from '@/components/GoogleAnalytics';
 import {CookieConsent} from '@/components/CookieConsent';
 import {readSharedContent} from '@/lib/content';
@@ -89,6 +90,7 @@ export default async function LocaleLayout({
             <BackgroundOrbs />
             <Navigation navSections={navSections} />
             <main className="relative z-[1] min-h-screen">
+              <RedThread />
               {children}
             </main>
             <Footer
