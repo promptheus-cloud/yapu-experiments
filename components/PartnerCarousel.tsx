@@ -17,16 +17,20 @@ export function PartnerCarousel({ title, logos }: PartnerCarouselProps) {
         <h2 className="text-sm font-bold uppercase tracking-[0.2em] text-muted-foreground text-center mb-12">
           {title}
         </h2>
-        <div className="flex flex-wrap justify-center items-center gap-x-12 gap-y-8 dark:glass-card dark:rounded-xl dark:p-8">
+        <div className="flex overflow-x-auto gap-8 pb-4 snap-x snap-mandatory scrollbar-thin dark:glass-card dark:rounded-xl dark:p-8">
           {logos.map((logo) => (
-            <Image
+            <div
               key={logo.alt}
-              src={logo.src}
-              alt={logo.alt}
-              width={140}
-              height={48}
-              className="object-contain h-12 w-auto grayscale hover:grayscale-0 transition-all duration-300 dark:brightness-0 dark:invert dark:hover:brightness-100 dark:hover:invert-0"
-            />
+              className="flex-none w-[calc(20%-1.6rem)] min-w-[140px] flex items-center justify-center snap-start"
+            >
+              <Image
+                src={logo.src}
+                alt={logo.alt}
+                width={200}
+                height={80}
+                className="object-contain h-16 w-auto grayscale hover:grayscale-0 transition-all duration-300 dark:invert dark:hover:invert-0"
+              />
+            </div>
           ))}
         </div>
       </div>
