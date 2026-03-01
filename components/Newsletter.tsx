@@ -77,7 +77,7 @@ export function Newsletter() {
                 <button
                   type="submit"
                   disabled={loading}
-                  className="w-full md:w-auto bg-cta text-white rounded-full px-8 py-3 font-semibold hover:opacity-90 transition-opacity"
+                  className="w-full md:w-auto bg-cta text-white rounded-lg px-8 py-3 font-semibold hover:opacity-90 transition-opacity"
                 >
                   {loading ? t('loadingMessage') : t('submitButton')}
                 </button>

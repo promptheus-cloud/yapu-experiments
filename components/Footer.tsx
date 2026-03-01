@@ -52,7 +52,7 @@ export function Footer({company, legalNoticeLabel, privacyPolicyLabel, copyright
               <span className="font-bold text-sm">contact</span>
               <a
                 href={`mailto:${email}`}
-                className="inline-flex bg-accent text-white px-5 py-2 rounded-full text-sm font-semibold hover:opacity-90 transition-opacity"
+                className="inline-flex bg-accent text-white px-5 py-2 rounded-lg text-sm font-semibold hover:opacity-90 transition-opacity"
               >
                 {email}
               </a>

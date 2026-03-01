@@ -379,7 +379,7 @@ export default async function AboutPage({
               </div>
               <button
                 type="button"
-                className="bg-cta text-white py-3 px-10 rounded-full font-semibold hover:bg-white hover:text-cta transition-colors border-2 border-cta btn-hover"
+                className="bg-cta text-white py-3 px-10 rounded-lg font-semibold hover:bg-white hover:text-cta transition-colors border-2 border-cta btn-hover"
               >
                 {t('contactSubmit')}
               </button>

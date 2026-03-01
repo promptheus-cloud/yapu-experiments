@@ -364,7 +364,7 @@ export default async function InvestorServicesPage({
             </p>
             <a
               href={content.greenFinanceRadar.ctaHref}
-              className="bg-white px-8 py-3 rounded-full font-semibold hover:opacity-90 transition-opacity inline-block text-accent"
+              className="bg-white px-8 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity inline-block text-accent"
             >
               {content.greenFinanceRadar.ctaText}
             </a>

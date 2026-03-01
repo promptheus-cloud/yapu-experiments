@@ -181,7 +181,7 @@ export default async function ImpactPage({
                   href={content.scaleForResilience.ctaHref}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-accent text-white px-6 py-3 rounded-full font-semibold uppercase tracking-wider text-sm hover:opacity-90 transition-opacity btn-hover"
+                  className="inline-block bg-accent text-white px-6 py-3 rounded-lg font-semibold uppercase tracking-wider text-sm hover:opacity-90 transition-opacity btn-hover"
                 >
                   {content.scaleForResilience.ctaText}
                 </a>
@@ -269,7 +269,7 @@ export default async function ImpactPage({
                       ))}
                       <a
                         href={ref.link}
-                        className="inline-block bg-cta text-white px-6 py-2.5 rounded-full font-bold uppercase tracking-wider text-sm hover:opacity-90 transition-opacity mt-2 self-start btn-hover"
+                        className="inline-block bg-cta text-white px-6 py-2.5 rounded-lg font-bold uppercase tracking-wider text-sm hover:opacity-90 transition-opacity mt-2 self-start btn-hover"
                       >
                         read more
                       </a>

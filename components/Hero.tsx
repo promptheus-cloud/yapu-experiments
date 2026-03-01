@@ -28,7 +28,7 @@ export function Hero({ title, subtitle, ctaText, ctaHref, variant = 'homepage', 
           {ctaText && ctaHref && (
             <a
               href={ctaHref}
-              className="mt-8 bg-cta text-white px-8 py-3 rounded-full font-semibold hover:opacity-90 transition-opacity inline-block text-lg"
+              className="mt-8 bg-cta text-white px-8 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity inline-block text-lg"
             >
               {ctaText}
             </a>
@@ -113,7 +113,7 @@ export function Hero({ title, subtitle, ctaText, ctaHref, variant = 'homepage', 
           {ctaText && ctaHref && (
             <a
               href={ctaHref}
-              className="bg-cta text-white px-8 py-3 rounded-full font-semibold hover:opacity-90 transition-opacity inline-block text-lg"
+              className="bg-cta text-white px-8 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity inline-block text-lg"
             >
               {ctaText}
             </a>

@@ -146,7 +146,7 @@ export function NewsFilter({
             <button
               key={i}
               onClick={() => setPage(i)}
-              className={`w-10 h-10 rounded-full text-sm font-semibold transition-colors ${
+              className={`w-10 h-10 rounded-lg text-sm font-semibold transition-colors ${
                 page === i
                   ? 'bg-brand text-white'
                   : 'bg-card text-foreground border border-border hover:bg-brand hover:text-white'
@@ -158,7 +158,7 @@ export function NewsFilter({
           {page < totalPages - 1 && (
             <button
               onClick={() => setPage((p) => p + 1)}
-              className="px-5 py-2 rounded-full bg-card text-foreground font-semibold border border-border hover:bg-brand hover:text-white transition-colors ml-2"
+              className="px-5 py-2 rounded-lg bg-card text-foreground font-semibold border border-border hover:bg-brand hover:text-white transition-colors ml-2"
             >
               Next
             </button>
