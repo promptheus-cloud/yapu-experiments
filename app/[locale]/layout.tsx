@@ -6,7 +6,7 @@ import {Nunito, Varela_Round} from 'next/font/google';
 import {ThemeProvider} from '@/components/ThemeProvider';
 import {Navigation, type NavSection} from '@/components/Navigation';
 import {Footer} from '@/components/Footer';
-
+import {BackgroundOrbs} from '@/components/BackgroundOrbs';
 import {GoogleAnalytics} from '@/components/GoogleAnalytics';
 import {CookieConsent} from '@/components/CookieConsent';
 import {readSharedContent} from '@/lib/content';
@@ -86,8 +86,9 @@ export default async function LocaleLayout({
         <GoogleAnalytics />
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+            <BackgroundOrbs />
             <Navigation navSections={navSections} />
-            <main className="min-h-screen">
+            <main className="relative z-[1] min-h-screen">
               {children}
             </main>
             <Footer
