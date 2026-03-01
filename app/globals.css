@@ -300,3 +300,6 @@ html.dark {
 .animate-scroll-left {
   animation: scroll-left 30s linear infinite;
 }
+.animate-scroll-left:hover {
+  animation-play-state: paused;
+}

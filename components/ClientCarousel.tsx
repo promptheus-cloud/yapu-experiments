@@ -17,11 +17,11 @@ export function ClientCarousel({ title, logos }: ClientCarouselProps) {
   const doubled = [...logos, ...logos];
 
   return (
-    <section className="py-16 bg-background overflow-hidden" aria-label={title}>
+    <section className="py-16 bg-section-alt overflow-hidden" aria-label={title}>
       <h2 className="text-sm font-bold uppercase tracking-[0.2em] text-muted-foreground text-center mb-12 px-6">
         {title}
       </h2>
-      <div className="flex gap-16 animate-scroll-left hover:[animation-play-state:paused]">
+      <div className="flex gap-16 animate-scroll-left">
         {doubled.map((logo, i) => (
           <div
             key={`${logo.alt}-${i}`}
