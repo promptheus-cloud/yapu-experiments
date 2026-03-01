@@ -127,8 +127,8 @@ export default async function AboutPage({
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-10">
             {content.team.map((member, index) => (
               <ScrollReveal key={member.name} animation="fade-up" delay={index * 80}>
-                <div className="text-center">
-                  <div className="w-full aspect-square bg-section-alt mb-4 overflow-hidden">
+                <div className="text-center dark:glass-card dark:rounded-xl dark:p-4">
+                  <div className="w-full aspect-square bg-section-alt mb-4 overflow-hidden rounded-lg">
                     {member.photo ? (
                       <Image
                         src={member.photo}

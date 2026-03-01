@@ -101,7 +101,7 @@ export function ServiceModules({ modules }: ServiceModulesProps) {
               } ${isReversed ? 'md:flex-row-reverse' : ''}`}
             >
               {/* Text Column */}
-              <div className={`flex-1 space-y-6 pl-5 ${style.borderClass}`}>
+              <div className={`flex-1 space-y-6 pl-5 ${style.borderClass} dark:glass-card dark:rounded-xl dark:p-8`}>
                 <h2
                   className={`text-3xl font-bold uppercase tracking-wide md:text-4xl ${style.titleClass}`}
                 >

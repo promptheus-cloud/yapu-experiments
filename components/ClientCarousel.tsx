@@ -17,7 +17,7 @@ export function ClientCarousel({ title, logos }: ClientCarouselProps) {
         <h2 className="text-sm font-bold uppercase tracking-[0.2em] text-muted-foreground text-center mb-12">
           {title}
         </h2>
-        <div className="flex flex-wrap justify-center items-center gap-x-10 gap-y-6">
+        <div className="flex flex-wrap justify-center items-center gap-x-10 gap-y-6 dark:glass-card dark:rounded-xl dark:p-8">
           {logos.map((logo) => (
             <Image
               key={logo.alt}

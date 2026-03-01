@@ -319,7 +319,7 @@ export default async function DigitalToolsPage({
               const iconSrc = featureIconMap[feature.icon] ?? featureIconMap.Shield;
               return (
                 <ScrollReveal key={feature.title} animation="fade-up" delay={index * 100}>
-                  <div className="text-center">
+                  <div className="text-center dark:glass-card dark:rounded-xl dark:p-4">
                     <div className="relative w-16 h-16 mx-auto mb-3">
                       <Image
                         src={iconSrc}

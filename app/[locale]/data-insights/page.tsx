@@ -316,7 +316,7 @@ export default async function DataInsightsPage({
             </div>
 
             {/* Example */}
-            <div className="bg-card dark:bg-card rounded-lg p-8">
+            <div className="bg-card dark:glass-card rounded-lg p-8">
               <p className="text-sm font-bold uppercase tracking-wider mb-2 text-brand dark:text-primary">Example</p>
               <h3 className="text-xl font-black mb-3 text-brand dark:text-primary">
                 {sections.resilienceFinance.example.title}
@@ -349,7 +349,7 @@ export default async function DataInsightsPage({
             {/* Dashboard screenshots */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
               {sections.performanceMonitoring.dashboards.map((dashboard) => (
-                <div key={dashboard.title} className="bg-card rounded p-2.5 shadow-lg">
+                <div key={dashboard.title} className="bg-card dark:glass-card rounded p-2.5 shadow-lg">
                   <div className="relative w-full aspect-[4/3]">
                     <Image
                       src={dashboard.image}

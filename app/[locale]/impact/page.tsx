@@ -192,7 +192,7 @@ export default async function ImpactPage({
                 </h3>
                 <div className="space-y-4">
                   {content.scaleForResilience.partners.map((partner) => (
-                    <div key={partner.name} className="bg-card rounded-lg p-4">
+                    <div key={partner.name} className="bg-card glass-card rounded-lg p-4">
                       <Image
                         src={partner.logo}
                         alt={partner.name}
@@ -252,7 +252,7 @@ export default async function ImpactPage({
 
                     {/* Text column */}
                     <div
-                      className={`flex flex-col justify-center p-8 md:p-12 bg-card ${
+                      className={`flex flex-col justify-center p-8 md:p-12 bg-card dark:glass-card ${
                         isPictureLeft ? 'md:order-2' : 'md:order-1'
                       }`}
                     >
