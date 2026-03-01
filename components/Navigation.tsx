@@ -75,7 +75,7 @@ export function Navigation({navSections}: NavigationProps) {
 
   return (
     <nav className={cn(
-      'sticky top-0 z-50 glass-nav transition-shadow',
+      'sticky top-0 z-50 glass-nav backdrop-blur-xl transition-shadow',
       scrolled && 'shadow-lg'
     )}>
       <div className="w-full flex items-center justify-between px-4 py-4 lg:px-6 lg:py-3">

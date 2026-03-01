@@ -226,10 +226,10 @@ html.dark {
   }
 
   .glass-nav {
-    background: oklch(0.35 0.06 210 / 0.85);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
-    border-bottom: 1px solid oklch(1 0 0 / 0.1);
+    background: oklch(0.20 0.04 210 / 0.55);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid oklch(1 0 0 / 0.08);
   }
   :is(.dark *).glass-nav {
     background: oklch(0.10 0.02 210 / 0.45);
