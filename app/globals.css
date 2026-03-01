@@ -175,15 +175,39 @@
   }
 }
 
-/* Dark mode body gradient for glassmorphism depth */
+/* Dark mode: solid fallback on html */
+html.dark {
+  background-color: oklch(0.07 0.02 210);
+}
+
+/* Dark mode atmospheric background — gradient orbs for glassmorphism depth */
 :is(.dark) body {
-  background: linear-gradient(
-    180deg,
-    oklch(0.145 0.02 210) 0%,
-    oklch(0.12 0.025 220) 50%,
-    oklch(0.145 0.02 210) 100%
-  );
+  background:
+    /* Large teal glow behind hero area */
+    radial-gradient(ellipse 100% 50% at 50% -5%, oklch(0.22 0.08 195 / 0.5) 0%, transparent 70%),
+    /* Mint accent glow at left edge */
+    radial-gradient(ellipse 35% 50% at -8% 45%, oklch(0.20 0.07 194 / 0.35) 0%, transparent 55%),
+    /* Subtle teal glow at right edge */
+    radial-gradient(ellipse 30% 45% at 108% 30%, oklch(0.18 0.06 210 / 0.25) 0%, transparent 50%),
+    /* Bottom center glow */
+    radial-gradient(ellipse 60% 30% at 50% 105%, oklch(0.20 0.07 195 / 0.35) 0%, transparent 55%),
+    /* Mid-page accent */
+    radial-gradient(circle at 75% 65%, oklch(0.16 0.05 200 / 0.2) 0%, transparent 35%),
+    /* Base dark */
+    oklch(0.07 0.02 210);
   background-attachment: fixed;
+}
+
+/* Dark mode: sections become translucent so body glows bleed through */
+:is(.dark) section.bg-background {
+  background-color: oklch(0.10 0.02 210 / 0.55);
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
+}
+:is(.dark) section.bg-section-alt {
+  background-color: oklch(0.13 0.018 210 / 0.50);
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
 }
 
 /* Hover transitions + Glassmorphism */
@@ -207,9 +231,11 @@
     box-shadow: 0 8px 32px oklch(0 0 0 / 0.08);
   }
   :is(.dark *).glass-card {
-    background: oklch(0.18 0.02 210 / 0.5);
-    border: 1px solid oklch(1 0 0 / 0.08);
-    box-shadow: 0 8px 32px oklch(0 0 0 / 0.3);
+    background: oklch(0.14 0.02 210 / 0.4);
+    border: 1px solid oklch(0.71 0.10 194 / 0.15);
+    box-shadow:
+      0 0 24px oklch(0.71 0.10 194 / 0.06),
+      0 8px 32px oklch(0 0 0 / 0.3);
   }
 
   .glass-nav {
@@ -219,8 +245,8 @@
     border-bottom: 1px solid oklch(1 0 0 / 0.1);
   }
   :is(.dark *).glass-nav {
-    background: oklch(0.14 0.02 210 / 0.85);
-    border-bottom: 1px solid oklch(1 0 0 / 0.08);
+    background: oklch(0.10 0.02 210 / 0.75);
+    border-bottom: 1px solid oklch(0.71 0.10 194 / 0.1);
   }
 
   .hover-lift {
