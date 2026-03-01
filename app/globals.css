@@ -232,8 +232,8 @@ html.dark {
     border-bottom: 1px solid oklch(1 0 0 / 0.1);
   }
   :is(.dark *).glass-nav {
-    background: oklch(0.10 0.02 210 / 0.75);
-    border-bottom: 1px solid oklch(0.71 0.10 194 / 0.1);
+    background: oklch(0.10 0.02 210 / 0.45);
+    border-bottom: 1px solid oklch(1 0 0 / 0.05);
   }
 
   .hover-lift {

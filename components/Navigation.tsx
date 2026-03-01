@@ -107,7 +107,7 @@ export function Navigation({navSections}: NavigationProps) {
                         className={cn(
                           'bg-transparent text-white text-xs font-semibold uppercase tracking-wider',
                           isBoxed
-                            ? 'border border-accent rounded px-3 py-1.5 hover:bg-white/10 data-[state=open]:bg-white/10'
+                            ? 'rounded px-3 py-1.5 hover:bg-white/10 data-[state=open]:bg-white/10'
                             : 'px-3 py-1.5 hover:text-white/80'
                         )}
                         onPointerDown={(e) => e.preventDefault()}
