@@ -325,7 +325,7 @@ export default async function DigitalToolsPage({
                         src={iconSrc}
                         alt={feature.title}
                         fill
-                        className="object-contain"
+                        className="object-contain dark:invert"
                       />
                     </div>
                     <h3 className="text-sm font-semibold text-foreground">{feature.title}</h3>

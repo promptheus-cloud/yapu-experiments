@@ -141,7 +141,7 @@ export default async function InvestorServicesPage({
                       alt={service.title}
                       width={180}
                       height={180}
-                      className="object-contain"
+                      className="object-contain dark:invert"
                     />
                   </div>
                   <h3 className="font-heading text-[1.5em] font-bold mb-2 text-brand dark:text-primary">
@@ -220,7 +220,7 @@ export default async function InvestorServicesPage({
                     alt="Environmental impact"
                     width={200}
                     height={200}
-                    className="object-contain"
+                    className="object-contain dark:invert"
                   />
                 </div>
                 <h3 className="text-lg font-bold uppercase tracking-wide mb-2 text-accent">
@@ -238,7 +238,7 @@ export default async function InvestorServicesPage({
                     alt="Social impact"
                     width={200}
                     height={200}
-                    className="object-contain"
+                    className="object-contain dark:invert"
                   />
                 </div>
                 <h3 className="text-lg font-bold uppercase tracking-wide mb-2 text-gold">

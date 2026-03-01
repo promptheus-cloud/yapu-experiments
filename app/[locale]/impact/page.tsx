@@ -198,7 +198,7 @@ export default async function ImpactPage({
                         alt={partner.name}
                         width={160}
                         height={80}
-                        className="object-contain h-12 w-auto"
+                        className="object-contain h-12 w-auto dark:invert"
                       />
                     </div>
                   ))}
@@ -243,7 +243,7 @@ export default async function ImpactPage({
                             alt={ref.title}
                             width={160}
                             height={70}
-                            className="object-contain h-14 w-auto"
+                            className="object-contain h-14 w-auto dark:invert"
                           />
                         </div>
                       )}

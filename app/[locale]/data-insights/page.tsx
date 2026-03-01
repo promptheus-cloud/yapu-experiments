@@ -134,7 +134,7 @@ export default async function DataInsightsPage({
                     <img
                       src={category.icon}
                       alt={category.title}
-                      className="w-full h-full object-contain"
+                      className="w-full h-full object-contain dark:invert"
                     />
                   </div>
                   <span className="text-sm font-medium text-muted-foreground">{category.title}</span>
@@ -160,7 +160,7 @@ export default async function DataInsightsPage({
                 <div className="flex items-start gap-5 mb-6">
                   <div className="w-16 h-16 flex-shrink-0">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={sections.creditRisk.icon} alt="" className="w-full h-full object-contain" />
+                    <img src={sections.creditRisk.icon} alt="" className="w-full h-full object-contain dark:invert" />
                   </div>
                   <p className="inline-block text-lg text-white font-bold leading-relaxed px-5 py-3 rounded bg-accent">
                     {sections.creditRisk.text}
@@ -209,7 +209,7 @@ export default async function DataInsightsPage({
             <div className="flex items-center justify-center gap-4 mb-8">
               <div className="w-12 h-12 flex-shrink-0">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={sections.financialRisks.icon} alt="" className="w-full h-full object-contain" />
+                <img src={sections.financialRisks.icon} alt="" className="w-full h-full object-contain dark:invert" />
               </div>
               <h2 className="text-2xl md:text-3xl font-black uppercase tracking-wider text-brand dark:text-primary">
                 {sections.financialRisks.title}
@@ -264,7 +264,7 @@ export default async function DataInsightsPage({
             <div className="flex items-center justify-center gap-4 mb-8">
               <div className="w-12 h-12 flex-shrink-0">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={sections.resilienceFinance.icon} alt="" className="w-full h-full object-contain" />
+                <img src={sections.resilienceFinance.icon} alt="" className="w-full h-full object-contain dark:invert" />
               </div>
               <h2 className="text-2xl md:text-3xl font-bold text-white uppercase tracking-wider">
                 {sections.resilienceFinance.title}
