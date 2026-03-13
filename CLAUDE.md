@@ -46,12 +46,15 @@ Alle Routen sind locale-prefixed: `/en/...`, `/es/...`, `/fr/...`
 
 ### Deployment
 
+**Push auf `master` deployt automatisch.** Ein GitHub Webhook benachrichtigt den Server, der `git pull`, `npm ci`, `build` und `pm2 restart` ausfuehrt. Kein SSH noetig.
+
+- PR mergen oder auf master pushen → Deployment startet automatisch (~2 Min)
+- Webhook-Endpoint: `https://deploy.hylox.org/webhook` (HMAC-SHA256 verifiziert)
+
+Manuelles Deployment (Fallback):
 ```bash
 ssh root@187.77.66.133 "cd /home/yapu-experiments && git pull origin master && npm run build && pm2 restart yapu-experiments"
 ```
-
-Vor dem Push: `gh auth switch --user promptheus-cloud && gh auth setup-git`
-Nach dem Push: `gh auth switch --user Marlin-hi`
 
 ## Content-Architektur
 
