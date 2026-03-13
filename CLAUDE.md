@@ -46,10 +46,11 @@ Alle Routen sind locale-prefixed: `/en/...`, `/es/...`, `/fr/...`
 
 ### Deployment
 
-**Push auf `master` deployt automatisch.** Ein GitHub Webhook benachrichtigt den Server, der `git pull`, `npm ci`, `build` und `pm2 restart` ausfuehrt. Kein SSH noetig.
+**Deployment ist vollautomatisch.** Kein SSH, kein manueller Schritt noetig.
 
-- PR mergen oder auf master pushen → Deployment startet automatisch (~2 Min)
-- Webhook-Endpoint: `https://deploy.hylox.org/webhook` (HMAC-SHA256 verifiziert)
+- Push auf `master` → GitHub Webhook → Server deployt automatisch (~2 Min)
+- Push auf `claude/*` Branch → GitHub Action merged automatisch in master → Webhook deployt
+- Das heisst: einfach pushen (egal ob master oder claude/-Branch) und es wird deployed
 
 Manuelles Deployment (Fallback):
 ```bash
